@@ -1,0 +1,24 @@
+<form action="{% url 'base:resume-add' %}" method="post" id="resumeForm" name="resumeForm" enctype="multipart/form-data" style="margin:0 auto">
+            {% csrf_token %}
+            <strong id="resumeformMessage">{{ status }}</strong>
+            {{ form.non_field_errors }}
+
+
+            <div class="form-group">
+                {{ form.name.errors }}
+                <input type="text" id="id_name" name="{{ form.name.html_name }}" maxlength="100" required placeholder="Your name" value="">
+            </div>
+
+            <div class="form-group">
+                {{ form.email.errors }}
+                <input type="email" id="id_email" name="{{ form.email.html_name }}" value="" placeholder="Your email" draggable="true" required maxlength="100">
+            </div>
+
+            <div class="form-group">
+                {{ form.doc.errors }}
+                <p style="text-align: left;margin: 0;padding: 0;font-size:14px ">Upload your CV</p>
+                <input id="id_doc" name="{{ form.doc.html_name }}" type="file" required placeholder="Drag and drop your CV here"/>
+            </div>
+
+            <input type="submit" value="Submit" style="float:right">
+</form>

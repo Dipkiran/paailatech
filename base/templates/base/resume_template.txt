@@ -1,0 +1,7 @@
+Job Application
+
+Contact Name:
+{{ sender_name }}
+
+Email:
+{{ sender_email }}

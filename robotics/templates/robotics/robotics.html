@@ -1,0 +1,464 @@
+{% extends 'base/base.html' %}
+{% load staticfiles %}
+
+<!-- Import CSS-->
+<link href="{% static 'robotics/css/product.css' %}" rel="stylesheet" type="text/css">
+
+{% block title %}
+    <title>Robotics - Paaila Technology</title>
+    <meta name="description" content="Manufacturing world class robots with Artificial Intelligence.
+    You can buy or lease robots from Paaila. We're sure they will add value to your business.
+    ">
+    <meta name="keywords" content="">
+{% endblock %}
+
+{% block content %}
+
+    <!--Robots from Paaila-->
+    <div style="background:#FAFAFA;border-bottom: 2px solid #F0F0F0;margin-top: 70px">
+        <div class="container expand-container" style="padding:calc(2vw + 1em) 0 calc(1vw + 1em) 0;">
+            <p style="text-align:center" class="subtitle">World class robots from Paaila</p>
+            <h1 class="title">Robots to suit diferent business needs</h1>
+            <div class="" style="margin-top:10px;">
+
+
+                <div class="col-md-4 col-sm-6 feature">
+                    <a href="/robotics/waiter"><img
+                            src="{% static "robotics/images/Paaila Technology Icon_Waiter Robot Thumbnail.png" %}"
+                            style="background-color: #3398DC"
+                            alt="Beautifully designed waiter robot from Paaila Technology for you hotel and restaurant"
+                            class="img img-responsive"></a>
+
+                    <h2>Waiter Robot</h2>
+                    <p class="text">A smart, reliable and autonomous robot to take your valued customers' food order
+                        from kitchen to table.<br><strong>Launch : Jan. 15, 2018</strong></p>
+                </div>
+
+
+                <div class="col-md-4 col-sm-6 feature">
+                    <a href="/robotics/room-service"><img
+                            src="{% static "robotics/images/Paaila Technology Icon_room service robot thumbnail.png" %}"
+                            style="background-color: #3398DC"
+                            alt="Beautifully designed room service robot from Paaila Technology for your hotel."
+                            class="img img-responsive"></a>
+                    <h2>Room Service Robot</h2>
+                    <p class="text">Explore new frontiers in room service. Ferry can carry most items to your hotel's
+                        room. <br><strong>Launch : Feb. 15, 2018</strong></p>
+                </div>
+
+
+                <div class="col-md-4 col-sm-6 feature">
+                    <a href="/robotics/pari"><img
+                            src="{% static "robotics/images/Paaila Technology Icon_pari robot.png" %}"
+                            style="background-color: #3398DC"
+                            alt="Humanoid Robot Pari for human interaction powered by advanced AI technologies."
+                            class="img img-responsive"></a>
+                    <h2>Pari</h2>
+                    <p class="text">Pari is your everday interaction humanoid. Pari 2.0 is coming up with advance AI
+                        technologies.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!--End of Robots from paaila section-->
+
+    <!--General Usage-->
+    <div style="background:#FAFAFA">
+        <style>
+            .feature img {
+                background: #FFCA05;
+            }
+
+            .usage {
+                height: 430px;
+            }
+
+        </style>
+
+        <div class="container expand-container" style="padding:calc(2vw + 1em) 0 calc(1vw + 1em) 0;">
+            <p style="text-align:center" class="subtitle">Integrate technology seamlessly in your business</p>
+            <h2 class="title">Deploy Robots</h2>
+
+            <br>
+            <p class="text" style="text-align:left;padding:0 2vw">Robots are finding widespread approvals and seamless
+                integrations in businesses as robotics technology
+                is quickly evolving. For businesses in Nepal and beyond, Paaila Technology has come up with humanoid
+                service robots that can enhance efficiency of operations, provide novel engaging experience to customers
+                thus adding value to businesses.</p>
+            <br>
+            <div class="" style="margin-top:10px;">
+                <div class="col-md-3 col-sm-6 feature usage">
+                    <a><img src="{% static "robotics/images/Thumbnails_Banks.png" %}"
+                            alt="Pari is a delightful experience for customer reception" class="img img-responsive"></a>
+                    <h3>Customer Reception</h3>
+                    <p class="text"> A kind greeting “What can I do for you?” begins a friendly conversation between a
+                        customer
+                        and a robot receptionist, which is a joyful and unforgettable service experience to
+                        customers.</p>
+                </div>
+
+                <div class="col-md-3 col-sm-6 feature usage">
+                    <a><img src="{% static "robotics/images/Thumbnails_Restaurants.png" %}"
+                            alt="Pari can be used to create memorable product and service launches."
+                            class="img img-responsive"></a>
+                    <h3>Product Service / Launch</h3>
+                    <p class="text">Pari is able to introduce your product both on the screen and voiceover,
+                        which is the most effective way to make people remember your product or service.</p>
+                </div>
+
+                <div class="col-md-3 col-sm-6 feature usage">
+                    <a><img src="{% static "robotics/images/Thumbnails_Banks.png" %}"
+                            alt="Pari is great at answering customer queries by retrieving information from its' database."
+                            class="img img-responsive"></a>
+                    <h3>Query Answering</h3>
+                    <p class="text">Robots are best suited to carry out repeated
+                        tasks like query answering with same energy, sense of humor and attitude.</p>
+                </div>
+
+                <div class="col-md-3 col-sm-6 feature usage">
+                    <a><img src="{% static "robotics/images/Thumbnails_Shopping Mall.png" %}"
+                            alt="Pari can be used to entertain customers. She can dance around, tell jokes and stories creating memorable experience."
+                            class="img img-responsive"></a>
+                    <h3>Entertainment</h3>
+                    <p class="text">Pari is good at creating a friendly environment around herself.
+                        She can dance, joke and interact with customers.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of general usage  -->
+
+    <!--Start of Technology Enabling-->
+    <!--General Usage-->
+    <div style="background:#ffffff">
+        <style>
+            .feature img {
+                background: #3398DC;
+            }
+
+            .usage {
+                height: 400px;
+            {#            height: auto;#}
+            }
+
+        </style>
+
+        <div class="container expand-container" style="padding:calc(2vw + 1em) 0 calc(1vw + 1em) 0; border-bottom: 2px solid #EAEAEA">
+            <p style="text-align:center" class="subtitle">Technologies enabling robots</p>
+            <h2 style="margin:1.2vh 0px 3vh 0;text-align:center">Expertise</h2>
+
+            <br>
+            <p class="text" style="text-align: left;padding:0 2vw">Paaila Technology is a company with the best vertical
+                integration of hardware
+                and software expertise. It's not an option for us, it's imperative for development of world class robots
+                at affordable cost. We are uniquely empowered to make intelligent robots which are not just beautiful
+                but
+                add values to businesses of our technology embracing customers.</p>
+            <br>
+            <div class="" style="margin-top:10px;">
+
+                <div class="col-md-3 col-sm-6 feature usage">
+                    <a><img src="{% static "base/images/Thumbnails_computer vision.png" %}"
+                            alt="Pari built with Computer Vision to see things around" class="img img-responsive"></a>
+                    <h3>Computer Vision</h3>
+                    <p class="text"> Enables robots to actually see their surroundings to make them more interactive
+                        with
+                        people around them.
+
+                    </p>
+                </div>
+
+                <div class="col-md-3 col-sm-6 feature usage">
+                    <a><img src="{% static "base/images/Thumbnails_natural language processing.png" %}"
+                            alt="Pari is built with Natural Language Processing capablities to understand human language,
+                      queries and interact effectively." class="img img-responsive"></a>
+                    <h3>Natural Language Processing</h3>
+                    <p class="text">Allows robots to understand the queries of humans and formulate effective strategy
+                        to
+                        provide the best answer.</p>
+                </div>
+
+                <div class="col-md-3 col-sm-6 feature usage">
+                    <a><img src="{% static "base/images/Thumbnails_embedded system design.png" %}"
+                            alt="Pari has robust embedded system inside which powers its actions and functions. "
+                            class="img img-responsive"></a>
+                    <h3>Embedded System Design</h3>
+                    <p class="text">It's at the core of a robot empowering every of its' functions and actions.</p>
+                </div>
+
+                <div class="col-md-3 col-sm-6 feature usage">
+                    <a><img src="{% static "base/images/Thumbnails_robot design and modelling.png" %}"
+                            alt="Pari has been designed aesthetically for natural touch and feel, durability and efficiency."
+                            class="img img-responsive"></a>
+                    <h3>Robot Modelling & Design</h3>
+                    <p class="text">To create robots with aesthetic touch, natural feel and durability.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--End of Technology Enabling-->
+
+        <!-- start of FAQ -->
+        <div id="faq" class="container faqq">
+            <h2 style="margin:80px 0">Frequently Asked Questions on Robotics and Paaila&nbsp<i class="fa fa-angle-down"
+                                                                                aria-hidden="true"></i><i
+                    class="fa fa-angle-up" aria-hidden="true"></i></h2>
+
+            <div class="question-answer">
+                <h3 class="text">
+                    How much of Pari is Made in nepal?
+                    <img class="fa fa-plus" src="{% static 'base/images/Arrow_minus.png' %}"><img class="fa fa-times"
+                                                                                                  src="{% static 'base/images/Arrow_plus.png' %}">
+                </h3>
+                <p class="text">
+                    People are often awed by the finishing of the product. They ask if it is imported from China or
+                    elsewhere.
+                    We thank them for the compliment and humbly reply that it is completely made in Nepal.
+                    To be specific :
+                    <br><br>
+                    1. The body of the robot was designed, molded, fabricated, polished and painted in Nepal.
+                    <br>2. We did not make the touchscreens or the computers used inside it. However, we did program the
+                    computers
+                    and made all the softwares used in the robot from ground-up.
+                    <br>3. We also built softwares and hardwares for all motion/actuator control that is visible in the
+                    robot.
+                </p>
+            </div>
+
+            <div class="question-answer">
+                <h3 class="text">
+                    How long did it take to make Pari?
+                    <img class="fa fa-plus" src="{% static 'base/images/Arrow_minus.png' %}"><img class="fa fa-times"
+                                                                                                  src="{% static 'base/images/Arrow_plus.png' %}">
+                </h3>
+                <p class="text">
+                    Pari was completed in a time frame of 45 days by a team of a
+                    handful of engineers working day and night literally.
+                    More than 30 people were involved in the development of Pari which apart from
+                    engineers comprised of
+                    designers, painters, sculptors, voice actors, sound-video
+                    editors and more.
+                </p>
+            </div>
+
+            <div class="question-answer">
+                <h3 class="text">What are features of Pari and how does it work?
+                    <img class="fa fa-plus" src="{% static 'base/images/Arrow_minus.png' %}"><img class="fa fa-times"
+                                                                                                  src="{% static 'base/images/Arrow_plus.png' %}">
+                </h3>
+                <p class="text">
+                    The robot is robustly built with features such as verbal interaction, detection of human presence in
+                    proximity and humanoid body structure. It greets people when they enter into the bank and
+                    asks to help them when it senses people in proximity. It can guide people to
+                    operate machines in the bank through a beautifully designed program running on its touch screen.
+                    The program to guide people is coupled with voice assistance. It has been fine tuned to
+                    make its operation efficient and the robot durable.
+                </p>
+            </div>
+
+
+            <div class="question-answer">
+                <h3 class="text">Where can we see the Robot?
+                    <img class="fa fa-plus" src="{% static 'base/images/Arrow_minus.png' %}"><img class="fa fa-times"
+                                                                                                  src="{% static 'base/images/Arrow_plus.png' %}">
+                </h3>
+                </h3>
+                <p class="text">
+                    Pari is placed at inTouch branch of Nepal SBI at Durbarmarg, Kathmandu.
+                    You’re welcome by the bank to visit the bank, do some banking and see Pari.
+                    Selfie taking is also allowed and actually encouraged.
+                    And we request you to use <strong>#Pari</strong> or <strong>#PaailaTechnology</strong> in case you
+                    wanted to post it in social media.
+                </p>
+            </div>
+
+            <div class="question-answer">
+                <h3 class="text">
+                    Why did you make it?
+                    <img class="fa fa-plus" src="{% static 'base/images/Arrow_minus.png' %}"><img class="fa fa-times"
+                                                                                                  src="{% static 'base/images/Arrow_plus.png' %}">
+                </h3>
+                <p class="text">
+                    Paaila Team is comprised of engineers who have a strong and long background in robotics.
+                    They have participated in International Robotics competitions, ABU Robocon, several times
+                    in a row and have won unprecedented awards and acknowledgement from the international
+                    robotics community. That being said, it should only sound natural that the team is
+                    passionate about robotics and should try to build world class robots of its own.
+                    <br><br>
+                    But it would not have been possible without the support of Nepal SBI bank whose
+                    interest in robotics kindled hope for a good market in robotics in the country.
+                    And because this robot was built in such a small time frame,
+                    it is just the tip of the iceberg, or even less.
+                    Future robots, we promise, will blow your minds away.
+                </p>
+            </div>
+
+            <div class="question-answer">
+                <h3 class="text">
+                    What are your future plans?
+                    <img class="fa fa-plus" src="{% static 'base/images/Arrow_minus.png' %}"><img class="fa fa-times"
+                                                                                                  src="{% static 'base/images/Arrow_plus.png' %}">
+                </h3>
+                <p class="text">
+                    We are planning to build a robot capable of completely autonomous navigation, natural
+                    human conversation embedded with business specific expert system.
+                    <br><br>
+                    If everything goes as planned, you should be able to see the next robot in eight
+                    months. Of course, it is an ambitious target because of the fact that robotics
+                    require a huge amount of investment, very talented and hardworking engineers and a
+                    very welcoming market. And we do not pretend to have everything figured out,
+                    but with a team that knows only of work and deadlines, not of excuses
+                    and impossibilities, this target is the most probable outcome.
+                </p>
+            </div>
+
+
+            <div class="question-answer">
+                <h3 class="text">
+                    What is the vision of Paaila Technology?
+                    <img class="fa fa-plus" src="{% static 'base/images/Arrow_minus.png' %}"><img class="fa fa-times"
+                                                                                                  src="{% static 'base/images/Arrow_plus.png' %}">
+                </h3>
+                <p class="text">
+                    Our vision in three words - <b>Make in Nepal.</b>
+                    <br><br>
+                    It aims at producing world class robotics and industrial automation products that are
+                    suited for Nepali industries. In doing that we will be promoting a value,
+                    a sentiment that if we are prepared to work hard with a focused vision, everything
+                    can be done in Nepal.
+                </p>
+            </div>
+
+            <div class="question-answer">
+                <h3 class="text">
+                    How is the company culture at Paaila?
+                    <img class="fa fa-plus" src="{% static 'base/images/Arrow_minus.png' %}"><img class="fa fa-times"
+                                                                                                  src="{% static 'base/images/Arrow_plus.png' %}">
+                </h3>
+                <p class="text">
+                    Paaila Technology is a fast paced company with core focus on Robotics and Industrial Automation.
+                    It comprises of individuals who believe that they can change the world around them.
+                    Folks at Paaila are self motivated, talented and hardworking people who are always learning and
+                    always
+                    pushing their limits to deliver quality products and services. In a short span of time, it has
+                    delivered products and services to some of the biggest names in the country - SBI Nepal Limited,
+                    nLocate, Gyani Traders and many more. The trust that these companies put in us is a testament
+                    to the quality and expertise Paaila delivers in its products and to its clients.
+                </p>
+            </div>
+
+
+            <div class="question-answer">
+                <h3 class="text">
+                    What are jobs and careers prospects at Paaila?
+                    <img class="fa fa-plus" src="{% static 'base/images/Arrow_minus.png' %}"><img class="fa fa-times"
+                                                                                                  src="{% static 'base/images/Arrow_plus.png' %}">
+                </h3>
+                <p class="text">
+                    We are looking to expand our team as quickly as possible. We are looking
+                    for more engineers, managers and brilliant sales people with spark to make changes and
+                    add values to our organization. Even when there are no vacancies listed on
+                    our official site, people looking to work for Paaila can send us their resume and
+                    we will respond as quickly possible.
+                </p>
+            </div>
+
+
+            <div class="question-answer">
+                <h3 class="text">
+                    When was Paaila Technology established?
+                    <img class="fa fa-plus" src="{% static 'base/images/Arrow_minus.png' %}"><img class="fa fa-times"
+                                                                                                  src="{% static 'base/images/Arrow_plus.png' %}">
+                </h3>
+                <p class="text">
+                    The company was founded in Dec., 2016.
+                </p>
+            </div>
+
+
+        </div>
+        <!-- end of faq -->
+
+
+        <!-- start of Gallery  -->
+
+        <script type='text/javascript' src='{% static 'robotics/unitegallery/js/jquery-11.0.min.js' %}'></script>
+        <script type='text/javascript' src='{% static 'robotics/unitegallery/js/unitegallery.min.js' %}'></script>
+        <link rel='stylesheet' href='{% static 'robotics/unitegallery/css/unite-gallery.css' %}' type='text/css'/>
+        <script type='text/javascript'
+                src='{% static 'robotics/unitegallery/themes/tiles/ug-theme-tiles.js' %}'></script>
+
+        <div id="images" style="background:#FAFAFA">
+            <div class="container expand-container" style="padding:calc(2vw + 1em) 0 calc(2vw + 1em) 0;">
+                <p style="text-align:center" class="subtitle">Behold Pari in all her glory</p>
+                <h2 style="margin:1.2vh 0px 4vh 0;text-align:center">Pari</h2>
+
+                <div id="gallery" style="display:none">
+
+                    <img alt="#Pari launched at Nepal SBI inTouch branch opening ceremony at Durbarmarga, Kathmandu. The event was
+            inaugrated by SBI chairwoman Arundhati Bhattacharya."
+                         src="{% static 'robotics/Gallery/website-image 003.jpg' %}"
+                         data-image="{% static 'robotics/Gallery/website-image 003.jpg' %}"
+                         style="display:none">
+
+                    <img alt="Spectators observing Pari"
+                         src="{% static 'robotics/Gallery/website-image 005.jpg' %}"
+                         data-image="{% static 'robotics/Gallery/website-image 005.jpg' %}"
+                         style="display:none">
+
+                    <img alt="Paaila's CEO Mr. Binay Raut shaking hands with Arundhati Bhattacharya -Chairwoman of State Bank of
+            India at Nepal SBI inTouch branch opening ceremony at Durbarmarga, Kathmandu."
+                         src="{% static 'robotics/Gallery/website-image 006.jpg' %}"
+                         data-image="{% static 'robotics/Gallery/website-image 006.jpg' %}"
+                         style="display:none">
+
+                    <img alt="Team Paaila with humanoid robot #Pari"
+                         src="{% static 'robotics/Gallery/website-image 009.jpg' %}"
+                         data-image="{% static 'robotics/Gallery/website-image 009.jpg' %}"
+                         style="display:none">
+
+
+                    <img alt="#Pari in Nepal SBI inTouch branch, Durbarmarga, Kathmandu"
+                         src="{% static 'robotics/Gallery/website-image 004.jpg' %}"
+                         data-image="{% static 'robotics/Gallery/website-image 004.jpg' %}"
+                         style="display:none">
+
+                    <img alt="#Paaila Technology's product Pari Robot won - The Best Innovative
+             Product- in ICT Award 2017. It was awarded by honorable  Minister for
+             Information and Communications Mohan Bahadur Basnet. 52 startups participated."
+                         src="{% static 'robotics/Gallery/website-image 001.jpg' %}"
+                         data-image="{% static 'robotics/Gallery/website-image 001.jpg' %}"
+                         style="display:none">
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+
+            jQuery(document).ready(function () {
+                jQuery("#gallery").unitegallery();
+            });
+
+        </script>
+
+        <!-- End of Gallery-->
+
+
+        <!--start of common section  -->
+        <!-- start of contact-us section  -->
+        <div class="container-fluid contact-us">
+            <div class="container">
+                <h2 style="margin:40px 0px 10px 0;">Know more about Pari</h2>
+                <p class="subtitle">Shoot any queries about Pari</p>
+
+                {% include 'base/emailform.html' %}
+
+            </div>
+        </div>
+
+        <!-- end of contact us section -->
+        <script src="{% static 'base/js/contact_us.js' %}"></script>
+
+{% endblock %}

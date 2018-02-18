@@ -1,0 +1,369 @@
+{% extends 'base/base.html' %}
+{% load staticfiles %}
+
+{% block title %}
+    <title>A Robotics and AI Company - Paaila Technology</title>
+    <meta name="keywords"
+          content="Buy, Lease, Nepali Robotics, Paaila, Paaila Technology, Humanoid, Humanoid Robot, Robot for business,  Technology, Nepal, Made in Nepal">
+    <meta name="description" content="We offer robotics and AI service for your business.
+        It has a great vertical integration of software and hardware expertise which includes computer vision, natural language processing,
+        autonomous navigation, machine learning, artificial intelligence, mechanical engineering, fabrication, robotics.">
+{% endblock %}
+
+
+{% block content %}
+    <style>
+        .hero-image {
+            height: 780px;
+            background: #F0F0F0 center url({% static 'robotics/images/Paaila Technology Icon_Robotics and AI.png' %}) no-repeat;
+        }
+
+        {#        @media screen and (max-width: 800px) {#}
+        {##}
+        {#            .hero-image {#}
+        {#                background: white center url({% static 'robotics/images/Ad and covers_Robot cover small.png' %}) no-repeat;#}
+        {#            }#}
+        {##}
+        {#            #pari-thumbnail {#}
+        {#                display: none;#}
+        {#            }#}
+        {#        }#}
+        {##}
+        {#        @media screen and (max-width: 480px) {#}
+        {##}
+        {#            .hero-image {#}
+        {#                height: 480px;#}
+        {#                background: white center url({% static 'robotics/images/Ad and covers_Robot cover very-small.jpg' %}) no-repeat;#}
+        {#            }#}
+        {#        }#}
+
+    </style>
+
+    {#Introductory Image#}
+    <div class="container-fluid" style="padding: 0;background: #F0F0F0">
+        <p class="subtitle" style="margin-top: 70px;text-align: center;padding:30px 0 0px 0;margin-bottom: 0">Paaila
+            Technology</p>
+        <h1 id="hero-intro" style="text-align: center;font-size:60px; padding-bottom: 40px;margin-top: 0">a robotics &
+            ai company</h1>
+        <div class="container hero-image" style="text-align: center;margin-top: -50px;padding: 0 auto">
+            {#            <a><img src="{% static "robotics/images/Paaila Technology waiter robot.png" %}"#}
+            {#                    style="text-align: center;margin: 0 auto;padding: 0 auto"#}
+            {#                    alt="Pari has been designed using state of art designing tools." class="img img-responsive"></a>#}
+        </div>
+    </div>
+
+    <!--Robots from Paaila-->
+    <div style="background:#FAFAFA;border-bottom: 2px solid #F0F0F0">
+        <div class="container expand-container" style="padding:calc(2vw + 1em) 0 calc(1vw + 1em) 0;">
+            <p style="text-align:center" class="subtitle">Quality Products Offerings from Paaila</p>
+            <h2 class="title">Robots from Paaila</h2>
+            <div class="" style="margin-top:10px;">
+
+
+                <div class="col-md-4 col-sm-6 feature">
+                    <a href="/robotics/waiter"><img
+                            src="{% static "robotics/images/Paaila Technology Icon_Waiter Robot Thumbnail.png" %}"
+                            style="background-color: #3398DC"
+                            alt="World class waiter robot made in nepal by Paaila Technology."
+                            class="img img-responsive"></a>
+                    <h2>Waiter Robot</h2>
+                    <p class="text">A smart, reliable and autonomous robot to take your valued customers' food order
+                        from kitchen to table.<br><strong>Launch : Jan. 15, 2018</strong></p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 feature">
+                    <a href="/robotics/room-service"><img
+                            src="{% static "robotics/images/Paaila Technology Icon_room service robot thumbnail.png" %}"
+                            style="background-color: #3398DC"
+                            alt="World class room service robot made in nepal by Paaila Technology."
+                            class="img img-responsive"></a>
+                    <h2>Room Service Robot</h2>
+                    <p class="text">Explore new frontiers in room service. Ferry can carry most items to your hotel's
+                        room. <br><strong>Launch : Feb. 15, 2018</strong></p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 feature">
+                    <a href="/robotics/pari"><img
+                            src="{% static "robotics/images/Paaila Technology Icon_pari robot.png" %}"
+                            style="background-color: #3398DC"
+                            alt="Humanoid Robot Pari designed for human interaction."
+                            class="img img-responsive"></a>
+                    <h2>Pari</h2>
+                    <p class="text">Pari is your everday interaction humanoid. Pari 2.0 is coming up with advance AI
+                        technologies.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!--End of Robots from paaila section-->
+
+    <!--AI services from Paaila-->
+    <div style="background:#FAFAFA;border-bottom: 2px solid #F0F0F0">
+        <style>
+            .feature img {
+                background: #3398DC;
+            }
+
+        </style>
+
+        <div class="container expand-container" style="padding:calc(2vw + 1em) 0 calc(1vw + 1em) 0;">
+            <p style="text-align:center" class="subtitle">Artificial Intelligence Services</p>
+            <h2 style="margin:1.2vh 0px 3vh 0;text-align:center">Helping your business leverage the power of AI</h2>
+            <br>
+            <p class="text" style="text-align: left;padding:0 2vw">The world is rapidly embracing AI and reaping its'
+                benefits. Paaila Technology
+                wants to help companies in Nepal integrate AI technologies in their business.</p>
+            <br>
+
+            <div class="" style="margin-top:10px;">
+
+
+                <div class="col-md-4 col-sm-6 feature">
+                    <a href="ai#query-answering-system"><img
+                            src="{% static "robotics/images/Paaila Technology Icon_query answering system.png" %}"
+                            alt="Pari has been designed aesthetically for natural touch and feel, durability and efficiency."
+                            class="img img-responsive"></a>
+                    <h3>Query Answering System</h3>
+                    <p class="text">To create robots with aesthetic touch, natural feel and durability.</p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 feature">
+                    <a href="ai#nepali-speech-recognition"><img
+                            src="{% static "robotics/images/Paaila Technology Icon_speech recognition.png" %}"
+                            alt="Pari is built with Natural Language Processing capablities to understand human language,
+                      queries and interact effectively." class="img img-responsive"></a>
+                    <h3>Nepali Speech Recognition</h3>
+                    <p class="text">Allows robots to understand the queries of humans and formulate effective strategy
+                        to
+                        provide the best answer.</p>
+                </div>
+
+
+                <div class="col-md-4 col-sm-6 feature">
+                    <a href="ai#nepali-text-to-speech"><img
+                            src="{% static "robotics/images/Paaila Technology Icon_text to speech.png" %}"
+                            alt="State of the art text to speech in nepali language for humanoid robot" class="img img-responsive"></a>
+                            <h3>Nepali Text To Speech</h3>
+                    <p class="text">Nepali TTS enables our humanoid robot to speak as naturally as humans.
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!--End of Robots from paaila section-->
+
+
+    <!-- Our Clients section -->
+    <div class="container-fluid" style="background: #FFFFFF">
+        <div class="container" style="padding:calc(2vw + 2em) 0 calc(2vw + 2em) 0;
+                {#    border-top:1px dashed black;#}
+                ">
+
+            <style>
+                .media-thumb {
+                    opacity: 0.75;
+                    width: 180px !important;
+                    height: auto;
+                }
+
+                .media-thumb:hover {
+                    opacity: 1;
+                }
+            </style>
+
+            <p class="subtitle">Testimony</p>
+            <h2 class="title">Companies and people who love us.</h2>
+
+            <div class="row" style="padding: 20px 0">
+                <!--Media 1  -->
+                <div class="col-md-2 col-xs-4" style="margin:0 auto; display: table;text-align: center">
+                    <a href="http://www.nepalsbi.com.np/">
+                        <img src="{% static 'base/images/NSBL LOGO.png' %}" class="img img-responsive media-thumb"
+                             alt="" style="">
+                    </a>
+                    <p>Nepal SBI</p>
+                </div>
+
+                <!--Media 6 -->
+                <div class="col-md-2 col-xs-4" style="margin:0 auto; display: table;text-align: center">
+                    <a href="http://www.nlocate.com/">
+                        <img src="{% static 'base/images/nlocate.png' %}" class="img img-responsive media-thumb" alt=""
+                             style="">
+                    </a>
+                    <p>nLocate</p>
+                </div>
+
+                <!--Media 2  -->
+                <div class="col-md-2 col-xs-4" style="margin:0 auto; display: table;text-align: center">
+                    <a href="https://www.sosgroup.com.np">
+                        <img src="{% static 'base/images/sos-logo-small.png' %}" class="img img-responsive media-thumb"
+                             alt="" style="">
+                    </a>
+                    <p>SOS Group</p>
+                </div>
+
+                <!--Media 2  -->
+                <div class="col-md-2 col-xs-4" style="margin:0 auto; display: table;text-align: center">
+                    <a href="#">
+                        <img src="{% static 'base/images/Gyani logo.png' %}" class="img img-responsive media-thumb"
+                             alt="" style="">
+                    </a>
+                    <p>Gyani Traders</p>
+                </div>
+
+                <!--Media 5 -->
+                <div class="col-md-2 col-xs-4" style="margin:0 auto; display: table;text-align: center">
+                    <a href="https://www.newsangam.com">
+                        <img src="{% static 'base/images/ns-logo.png' %}" class="img img-responsive media-thumb" alt=""
+                             style="">
+                    </a>
+                    <p>New Sangam Group</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!--  end of clients section-->
+
+
+
+    <!-- Awards -->
+    <div id="awards" class="container-fluid" style="background: #F0F0F0">
+        <div class="container" style="padding:calc(2vw + 2em) 0 calc(2vw + 2em) 0;
+                {#    border-top:1px dashed black;#}
+                ">
+            <style>
+                .award-img {
+                    height: 400px;
+                    width: auto;
+                }
+
+                .client-text p {
+                    padding: 7px 0;
+                    font-size: 16px;
+                }
+
+                .award a {
+                }
+            </style>
+
+            <p style="text-align:center" class="subtitle">Testimonies for our striving towards excellence</p>
+            <h2 style="margin:1.2vh 0px 6vh 0;text-align:center">Awards</h2>
+
+            <div class="col-sm-4" style="text-align: center">
+                <h3><a href="http://www.myrepublica.com/news/25971/" target="_blank" style="font-family: Dosis;">Best
+                    Startup Award</a></h3>
+                <p style="font-size: 16px">(ICT Award 2017)</p>
+            </div>
+
+            <div class="col-sm-4" style="text-align: center">
+                <h3><a href="http://www.myrepublica.com/news/25971/" target="_blank" style="font-family: Dosis;">Most
+                    Innovative Product Award</a></h3>
+                <p style="font-size: 16px">(ICT Award 2017)</p>
+            </div>
+
+            <div class="col-sm-4" style="text-align: center">
+                <h3><a href="#" style="font-family: Dosis;">Best Industry Award (Technology)</a></h3>
+                <p style="font-size: 16px">(FNCCI 2017)</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Media Coverage -->
+    <div class="container-fluid" style="background: #FFFFFF">
+        <div class="container" style="padding:calc(2vw + 2em) 0 calc(2vw + 2em) 0;
+                {#    border-top:1px dashed black;#}
+                ">
+
+            <style>
+                .media-thumb {
+                    opacity: 0.75;
+                    width: 180px !important;
+                    height: auto;
+                }
+
+                .media-thumb:hover {
+                    opacity: 1;
+                }
+            </style>
+
+            <p class="subtitle">Paaila in News!</p>
+            <h2 class="title">Media coverage</h2>
+
+            <div class="row" style="padding: 20px 0">
+                <!--Media 1  -->
+                <div class="col-md-2 col-xs-4" style="margin:0 auto; display: table;">
+                    <a href="http://kantipur.ekantipur.com/news/2017-07-12/20170712082145.html">
+                        <img src="{% static 'base/images/kant.jpg' %}" class="img img-responsive media-thumb"
+                             alt="Humanoid Robot at Intouch branch of SBI Nepal Branch at Durbarmarga"
+                             style="">
+                    </a>
+                </div>
+
+                <!--Media 6 -->
+                <div class="col-md-2 col-xs-4" style="margin:0 auto; display: table;">
+                    <a href="http://www.myrepublica.com/news/28180/">
+                        <img src="{% static 'base/images/myrepublica.png' %}" class="img img-responsive media-thumb"
+                             alt="Robotics and AI company in Nepal" style="">
+                    </a>
+                </div>
+
+                <!--Media 2  -->
+                <div class="col-md-2 col-xs-4" style="margin:0 auto; display: table;">
+                    <a href="http://epaper.thehimalayantimes.com/textview_3816_3299_4__21_03-09-2017_71_3.html">
+                        <img src="{% static 'base/images/THT.png' %}" class="img img-responsive media-thumb"
+                             alt="Young Guns :  Steps towards technological advancement "
+                             style="">
+                    </a>
+                </div>
+
+                <!--Media 2  -->
+                <div class="col-md-2 col-xs-4" style="margin:0 auto; display: table;">
+                    <a href="https://www.youtube.com/watch?v=JEDHbHddut8">
+                        <img src="{% static 'base/images/ap1.png' %}" class="img img-responsive media-thumb"
+                             alt="AP1 Television"
+                             style="">
+                    </a>
+                </div>
+
+
+                <!--Media 5 -->
+                <div class="col-md-2 col-xs-4" style="margin:0 auto; display: table;">
+                    <a href="https://youtu.be/LYlzuJ9Es34">
+                        <img src="{% static 'base/images/avenues_tv.png' %}" class="img img-responsive media-thumb"
+                             alt="Avenues Television" style="">
+                    </a>
+                </div>
+
+                <!--Media 7 -->
+                <div class="col-md-2 col-xs-4" style="margin:0 auto; display: table;">
+                    <a href="http://startupsnepal.com/stories/entry/the-journey-of-paaila-technology-a-kathmandu-based-tech-startup-that-is-taking-the-nepali-automation-scene-by-storm-with-pari">
+                        <img src="{% static 'base/images/startups-nepal-index_03.png' %}"
+                             class="img img-responsive media-thumb" alt="" style="">
+                    </a>
+                </div>
+
+            </div>
+
+            {#        <button>More media listing</button>#}
+            <a href="/media" style="padding: 20px 0">
+                <p style="text-align:center;" class="subtitle">More media listing &nbsp; ></p>
+                {#        <img src="{% static 'base/images/Arrow_plus.png' %}" style="margin: 0 auto;">#}
+            </a>
+
+            {#        <button style="padding: 10px 20px;background: white;border: 2px solid black;border-radius: 2px;>#}
+            {#            <a href="/media">More media listing &nbsp;></a>#}
+            {#        </button>#}
+
+        </div>
+    </div>
+    <!--  end of awards section-->
+
+
+{% endblock %}

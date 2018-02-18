@@ -1,0 +1,271 @@
+{% extends 'base/base.html' %}
+{% load staticfiles %}
+
+<!-- Import CSS-->
+<link href="{% static 'robotics/css/product.css' %}" rel="stylesheet" type="text/css">
+
+{% block title %}
+    <title>Robotics - Paaila Technology</title>
+    <meta name="keywords" content="buy robot, robot, lease robot, rent robot, best robot, sell, room service, hotel,
+    restaurant, waiter, humanoid, Nepal">
+    <meta name="description" content="Paaila Technology makes the best robotic waiter in the world.
+    It can pick up food from kitchen table and place it on customer table.">
+{% endblock %}
+
+{% block content %}
+
+    <style>
+        .hero-image {
+            height: 780px;
+            background: #F0F0F0 center url({% static 'robotics/images/Paaila Technology waiter robot.png' %}) no-repeat;
+        }
+
+        {#        @media screen and (max-width: 800px) {#}
+        {##}
+        {#            .hero-image {#}
+        {#                background: white center url({% static 'robotics/images/Ad and covers_Robot cover small.png' %}) no-repeat;#}
+        {#            }#}
+        {##}
+        {#            #pari-thumbnail {#}
+        {#                display: none;#}
+        {#            }#}
+        {#        }#}
+        {##}
+        {#        @media screen and (max-width: 480px) {#}
+        {##}
+        {#            .hero-image {#}
+        {#                height: 480px;#}
+        {#                background: white center url({% static 'robotics/images/Ad and covers_Robot cover very-small.jpg' %}) no-repeat;#}
+        {#            }#}
+        {#        }#}
+
+    </style>
+
+    {#Introductory Image#}
+    <div class="container-fluid" style="padding: 0;background: #F0F0F0">
+        <p class="subtitle" style="margin-top: 70px;text-align: center;padding:10px 0 0px 0">World Class Waiter Robots
+            for your hotel business</p>
+        <h1 id="hero-intro" style="text-align: center;font-size:60px; padding:0;margin: 0">Your food delivered by
+            Robot!</h1>
+        <div class="container hero-image" style="text-align: center;margin: 0 auto;padding: 0 auto">
+            {#            <a><img src="{% static "robotics/images/Paaila Technology waiter robot.png" %}"#}
+            {#                    style="text-align: center;margin: 0 auto;padding: 0 auto"#}
+            {#                    alt="Pari has been designed using state of art designing tools." class="img img-responsive"></a>#}
+        </div>
+    </div>
+
+    <!--General Usage-->
+    <div style="background:#FAFAFA">
+        <style>
+            .feature img {
+                background: #FFCA05;
+            }
+
+            .usage {
+                height: 430px;
+            }
+
+        </style>
+
+        <div class="container expand-container" style="padding:calc(2vw + 1em) 0 calc(1vw + 1em) 0;">
+            <p style="text-align:center" class="subtitle">Integrate technology seamlessly in your business</p>
+            <h2 class="title">About Waiter Robots</h2>
+
+            <br>
+            <p class="text" style="text-align:left;padding:0 2vw">
+                These are series of intelligent waiter robots ready to deliver food and drinks to your invaluable
+                customers at your restaurants. All you have to do it place the food on the multiple trays on the robot
+                and hit the table number on the robot’s screen. The robot will then interact locally not just with the
+                restaurant environment but also with other sets of robots, distributing tasks, preventing collision and
+                co-operating to deliver the order to your esteemed customers. Instead of depending on the customer to
+                fetch the food, waiter robot places the tray on the table by itself, delighting your customers.
+            </p>
+            <br>
+        </div>
+        <!-- End of general usage  -->
+
+        <!--Start of methodoloy-->
+        <div style="background:#FAFAFA">
+            <div class="container expand-container" style="padding:calc(2vw + 1em) 0 calc(1vw + 1em) 0;">
+                <p style="text-align:center" class="subtitle">Pure convenience for business</p>
+                <h2 class="title">Why Robotic Waiters from Paaila?</h2>
+                <div class="" style="margin-top:10px;">
+                    <div class="col-md-4 col-sm-6 feature">
+                        <a><img src="{% static "robotics/images/Paaila Technology Icon_self driving technology robot.png" %}"
+                                style="background-color: #3398DC"
+                                alt="Self driving technology using AI for Waiter Robot"></a>
+                        <h2>Self driving technology</h2>
+                        <p class="text">It can take order from kitchen to any table by itself.</p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 feature">
+                        <a><img src="{% static "robotics/images/Paaila Technology Icon_swarm intelligence.png" %}"
+                                style="background-color: #3398DC"
+                                alt="Waiter Robots can coordinate using swarm intelligence"></a>
+                        <h2>Swarm Intelligence</h2>
+                        <p class="text">Two or more robotic waiters can communicate with each other to perform tasks in
+                            the most optimal way.</p>
+                    </div>
+
+                    {#            <div class="col-md-4 col-sm-6 feature">#}
+                    {#              <a><img src="{% static "robotics/images/Thumbnails_Manufacture.png" %}" style="background-color: #3398DC"#}
+                    {#                      alt="Paaila is the best company to manufacture Robots in Nepal. It ensures a high standard for all its products." class="img img-responsive"></a>#}
+                    {#              <h2>Design</h2>#}
+                    {#              <p class="text">Sleek and slim - Ramu - has been designed to charm customers.#}
+                    {#                  </p>#}
+                    {#            </div>#}
+
+                    <div class="col-md-4 col-sm-6 feature">
+                        <a><img src="{% static "robotics/images/Paaila Technology Icon_reliability.png" %}"
+                                style="background-color: #3398DC"
+                                alt="Waiter Robots are built for robustness and reliability"></a>
+                        <h2>Reliable</h2>
+                        <p class="text">We understand that reliability is a top priority for you. That's why we perform
+                            rigorous testing
+                            to ensure each robots perform reliably.</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!--End of methodoloy-->
+
+        {#        <!-- start of FAQ -->#}
+        {#        <div id="faq" class="container faqq">#}
+        {#            <h2 style="margin:80px 0">Frequently Asked Questions on Robotic Waiter&nbsp<i class="fa fa-angle-down"#}
+        {#                                                                                          aria-hidden="true"></i><i#}
+        {#                    class="fa fa-angle-up" aria-hidden="true"></i></h2>#}
+        {##}
+        {#            <div class="question-answer">#}
+        {#                <h3 class="text">#}
+        {#                    Is Ramu available on lease? Can I get it for trial?#}
+        {#                    <img class="fa fa-plus" src="{% static 'base/images/Arrow_minus.png' %}"><img class="fa fa-times"#}
+        {#                                                                                                  src="{% static 'base/images/Arrow_plus.png' %}">#}
+        {#                </h3>#}
+        {#                <p class="text">#}
+        {#                    People are often awed by the finishing of the product. They ask if it is imported from China or#}
+        {#                    elsewhere.#}
+        {#                    We thank them for the compliment and humbly reply that it is completely made in Nepal.#}
+        {#                    To be specific :#}
+        {#                    <br><br>#}
+        {#                    1. The body of the robot was designed, molded, fabricated, polished and painted in Nepal.#}
+        {#                    <br>2. We did not make the touchscreens or the computers used inside it. However, we did program the#}
+        {#                    computers#}
+        {#                    and made all the softwares used in the robot from ground-up.#}
+        {#                    <br>3. We also built softwares and hardwares for all motion/actuator control that is visible in the#}
+        {#                    robot.#}
+        {#                </p>#}
+        {#            </div>#}
+        {##}
+        {#            <div class="question-answer">#}
+        {#                <h3 class="text">What changes do I need to make to my restaurant to deploy Ramu?</h3>#}
+        {#                <div class="video-responsive">#}
+        {#                    <iframe width="420" height="315" src="https://www.youtube.com/embed/JZCEBmAF4R8?rel=0"#}
+        {#                            frameborder="0" allowfullscreen></iframe>#}
+        {#                </div>#}
+        {#            </div>#}
+        {##}
+        {##}
+        {#            <div class="question-answer">#}
+        {#                <h3 class="text">#}
+        {#                    How many people will be required to operate Ramu?#}
+        {#                    <img class="fa fa-plus" src="{% static 'base/images/Arrow_minus.png' %}"><img class="fa fa-times"#}
+        {#                                                                                                  src="{% static 'base/images/Arrow_plus.png' %}">#}
+        {#                </h3>#}
+        {#                <p class="text">#}
+        {#                    Pari was completed in a time frame of 45 days by a team of a#}
+        {#                    handful of engineers working day and night literally.#}
+        {#                    More than 30 people were involved in the development of Pari which apart from#}
+        {#                    engineers comprised of#}
+        {#                    designers, painters, sculptors, voice actors, sound-video#}
+        {#                    editors and more.#}
+        {#                </p>#}
+        {#            </div>#}
+        {##}
+        {##}
+        {#            <div class="question-answer">#}
+        {#                <h3 class="text">How much does Ramu cost?#}
+        {#                    <img class="fa fa-plus" src="{% static 'base/images/Arrow_minus.png' %}"><img class="fa fa-times"#}
+        {#                                                                                                  src="{% static 'base/images/Arrow_plus.png' %}">#}
+        {#                </h3>#}
+        {#                <p class="text">#}
+        {#                    The robot is robustly built with features such as verbal interaction, detection of human presence in#}
+        {#                    proximity and humanoid body structure. It greets people when they enter into the bank and#}
+        {#                    asks to help them when it senses people in proximity. It can guide people to#}
+        {#                    operate machines in the bank through a beautifully designed program running on its touch screen.#}
+        {#                    The program to guide people is coupled with voice assistance. It has been fine tuned to#}
+        {#                    make its operation efficient and the robot durable.#}
+        {#                </p>#}
+        {#            </div>#}
+        {##}
+        {##}
+        {#            <div class="question-answer">#}
+        {#                <h3 class="text">What differentiates Ramu from Chinese Robots for Restaurant?#}
+        {#                    <img class="fa fa-plus" src="{% static 'base/images/Arrow_minus.png' %}"><img class="fa fa-times"#}
+        {#                                                                                                  src="{% static 'base/images/Arrow_plus.png' %}">#}
+        {#                </h3>#}
+        {#                </h3>#}
+        {#                <p class="text">#}
+        {#                    Pari is placed at inTouch branch of Nepal SBI at Durbarmarg, Kathmandu.#}
+        {#                    You’re welcome by the bank to visit the bank, do some banking and see Pari.#}
+        {#                    Selfie taking is also allowed and actually encouraged.#}
+        {#                    And we request you to use <strong>#Pari</strong> or <strong>#PaailaTechnology</strong> in case you#}
+        {#                    wanted to post it in social media.#}
+        {#                </p>#}
+        {#            </div>#}
+        {##}
+        {#            <div class="question-answer">#}
+        {#                <h3 class="text">#}
+        {#                    How much time is required to deploy Ramu?#}
+        {#                    <img class="fa fa-plus" src="{% static 'base/images/Arrow_minus.png' %}"><img class="fa fa-times"#}
+        {#                                                                                                  src="{% static 'base/images/Arrow_plus.png' %}">#}
+        {#                </h3>#}
+        {#                <p class="text">#}
+        {#                    Paaila Team is comprised of engineers who have a strong and long background in robotics.#}
+        {#                    They have participated in International Robotics competitions, ABU Robocon, several times#}
+        {#                    in a row and have won unprecedented awards and acknowledgement from the international#}
+        {#                    robotics community. That being said, it should only sound natural that the team is#}
+        {#                    passionate about robotics and should try to build world class robots of its own.#}
+        {#                    <br><br>#}
+        {#                    But it would not have been possible without the support of Nepal SBI bank whose#}
+        {#                    interest in robotics kindled hope for a good market in robotics in the country.#}
+        {#                    And because this robot was built in such a small time frame,#}
+        {#                    it is just the tip of the iceberg, or even less.#}
+        {#                    Future robots, we promise, will blow your minds away.#}
+        {#                </p>#}
+        {#            </div>#}
+        {##}
+        {##}
+        {#            <div class="question-answer">#}
+        {#                <h3 class="text">#}
+        {#                    When was Paaila Technology established?#}
+        {#                    <img class="fa fa-plus" src="{% static 'base/images/Arrow_minus.png' %}"><img class="fa fa-times"#}
+        {#                                                                                                  src="{% static 'base/images/Arrow_plus.png' %}">#}
+        {#                </h3>#}
+        {#                <p class="text">#}
+        {#                    The company was founded in Dec., 2016.#}
+        {#                </p>#}
+        {#            </div>#}
+        {##}
+        {##}
+        {#        </div>#}
+        {#        <!-- end of faq -->#}
+
+
+        <!--start of common section  -->
+        <!-- start of contact-us section  -->
+        <div class="container-fluid contact-us">
+            <div class="container">
+                <h2 style="margin:40px 0px 10px 0;">Know more about Waiter Robot</h2>
+                <p class="subtitle">Buy or lease waiter robot or other query</p>
+
+                {% include 'base/emailform.html' %}
+
+            </div>
+        </div>
+
+        <!-- end of contact us section -->
+        <script src="{% static 'base/js/contact_us.js' %}"></script>
+
+{% endblock %}

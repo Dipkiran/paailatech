@@ -1,0 +1,152 @@
+{% extends 'base/base.html' %}
+{% load staticfiles %}
+
+    <!-- Import CSS-->
+    <link href="{% static 'robotics/css/product.css' %}" rel="stylesheet" type="text/css">
+
+{% block title %}
+    <title>Robotics - Paaila Technology</title>
+    <meta name="keywords" content="buy robot, robot, lease robot, rent robot, best robot, sell, room service, hotel, Nepal">
+    <meta name="description" content="Paaila makes world class room service robots. Buy one or lease one for your hotel business.">
+{% endblock %}
+
+{% block content %}
+
+    <style>
+        .hero-image {
+            height: 780px;
+          background: white center url({% static 'robotics/images/Paaila Technology room service robot.png' %}) no-repeat;
+        }
+
+{#        @media screen and (max-width: 800px) {#}
+{##}
+{#            .hero-image {#}
+{#                background: white center url({% static 'robotics/images/Ad and covers_Robot cover small.png' %}) no-repeat;#}
+{#            }#}
+{##}
+{#            #pari-thumbnail {#}
+{#                display: none;#}
+{#            }#}
+{#        }#}
+{##}
+{#        @media screen and (max-width: 480px) {#}
+{##}
+{#            .hero-image {#}
+{#                height: 480px;#}
+{#                background: white center url({% static 'robotics/images/Ad and covers_Robot cover very-small.jpg' %}) no-repeat;#}
+{#            }#}
+{#        }#}
+
+    </style>
+
+    {#Introductory Image#}
+    <div class="container-fluid" style="padding: 0;background: white">
+        <p class="subtitle" style="margin-top: 70px;text-align: center;padding:30px 0 0px 0">World Class Room Service for your hotel business</p>
+        <h1 id="hero-intro" style="text-align: center;font-size:60px; padding-bottom: 0px">Room service delivered by Ferry!</h1>
+        <div class="container hero-image" style="text-align: center;margin-top: -100px;padding: 0 auto">
+{#            <a><img src="{% static "robotics/images/Paaila Technology waiter robot.png" %}"#}
+{#                    style="text-align: center;margin: 0 auto;padding: 0 auto"#}
+{#                    alt="Pari has been designed using state of art designing tools." class="img img-responsive"></a>#}
+        </div>
+    </div>
+
+    <!--General Usage-->
+    <div style="background:#FAFAFA">
+    <style>
+        .feature img{
+            background: #FFCA05;
+        }
+
+        .usage{
+            height: 430px;
+        }
+
+    </style>
+
+        <div class="container expand-container" style="padding:calc(2vw + 1em) 0 calc(1vw + 1em) 0;">
+          <p style="text-align:center" class="subtitle">Integrate technology seamlessly in your business</p>
+          <h2 class="title">About Our Room Service Robot</h2>
+
+            <br>
+            <p class="text" style="text-align:left;padding:0 2vw">
+                Now, you don’t have to worry about the delivery services to your guests.
+                Deploy Ferry at the service and bring convenience to your workers and
+                delight your guests.
+            </p>
+
+                        <br>
+            <br>
+
+          <h2 class="title">How does it work?</h2>
+
+            <p class="text" style="text-align:left;padding:0 2vw">
+            It’s easy to get Ferry on operation. After a guest calls for a room-delivery of toothbrush,
+                towel, water bottles, breakfast or such, all you have to do is place the order
+                in the enclosed compartment. Enter the room number for delivery and tap GO.
+                Ferry will then use its inbuilt technology to navigate its way around to complete the delivery.
+                It will even call the elevator wirelessly and alert the guest after it arrives outside their room.
+            </p>
+            <br>
+        </div>
+      <!-- End of general usage  -->
+
+    <!--Start of methodoloy-->
+    <div style="background:#ffffff">
+        <div class="container expand-container" style="padding:calc(2vw + 1em) 0 calc(1vw + 1em) 0;">
+          <p style="text-align:center" class="subtitle">Pure convenience for business</p>
+          <h2 class="title">What makes Ferry easy to use?</h2>
+          <div class="" style="margin-top:10px;">
+            <div class="col-md-3 col-sm-6 feature">
+              <a><img src="{% static "robotics/images/Paaila Technology Icon_self driving technology robot.png" %}" style="background-color: #3398DC"
+                      alt="Self driving technology using AI for Waiter Robot" class="img img-responsive"></a>
+              <h2>Self driving technology</h2>
+              <p class="text">It can take order from kitchen to any table by itself avoiding obstacles.</p>
+            </div>
+
+            <div class="col-md-3 col-sm-6 feature">
+              <a><img src="{% static "robotics/images/Paaila Technology Icon_autonomous elevator operation.png" %}" style="background-color: #3398DC"
+                      alt="Robots are capable of operating the elevator through integration in your hostel system." class="img img-responsive"></a>
+              <h2>Autonomous elevator operation</h2>
+              <p class="text">It is designed to operate elevators itself to traverse to different rooms in a hotel.
+                  </p>
+            </div>
+
+
+            <div class="col-md-3 col-sm-6 feature">
+              <a><img src="{% static "robotics/images/Paaila Technology Icon_reliability.png" %}" style="background-color: #3398DC"
+                      alt="Room service robots are built for robustness and reliability" class="img img-responsive"></a>
+              <h2>Most Reliable</h2>
+              <p class="text">We understand that reliability is a top priority for you. That's why we perform rigorous testing
+              to ensure each robots perform reliably.</p>
+            </div>
+
+            <div class="col-md-3 col-sm-6 feature">
+              <a><img src="{% static "robotics/images/Paaila Technology Icon_self charging when idle.png" %}" style="background-color: #3398DC"
+                      alt="Room service Robot has self docking capability to charge itself when idle." class="img img-responsive"></a>
+              <h2>Charges automatically when in rest</h2>
+              <p class="text">Ferry can look after yourself so that you can focus on more important tasks.
+                  </p>
+            </div>
+          </div>
+
+        </div>
+    </div>
+    <!--End of methodoloy-->
+
+
+    <!--start of common section  -->
+    <!-- start of contact-us section  -->
+    <div class="container-fluid contact-us">
+      <div class="container">
+        <h2 style="margin:40px 0px 10px 0;">Know more about room service robot Ferry</h2>
+        <p class="subtitle">Shoot any queries</p>
+
+            {% include 'base/emailform.html' %}
+
+       </div>
+    </div>
+
+    <!-- end of contact us section -->
+    <script src="{% static 'base/js/contact_us.js' %}"></script>
+
+{% endblock %}

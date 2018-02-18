@@ -1,0 +1,97 @@
+{% extends 'base/base.html' %}
+{% load staticfiles %}
+
+    {% block title %}
+        <title>Careers - Paaila Technology</title>
+        <meta name="description" content="Paaila is the best place for robotics and ai enthusiasts to work. Jobs and vacancies at Paaila Technology.">
+        <meta name="keywords" content="AI, NLP, Robotics, ML, Jobs, Careers, Vacancy, Engineer, Computer, Electronics, Paaila, Paaila Technology, Technology, Nepal, Robot, Made in Nepal">
+    {% endblock %}
+
+{% block content %}
+  <link href="{% static 'base/css/jobs.css' %}" rel="stylesheet" type="text/css">
+
+    <style>
+    .hero-image{
+        height: 380px;
+        background-image:url({% static 'base/images/Icons_Career Cover Large.png' %});
+    }
+
+    @media screen and (max-width: 736px) {
+
+        .hero-image{
+            height: 380px;
+            background-image:url({% static 'base/images/Icons_Career Cover Large.png' %});
+            background-position: center;
+        }
+    }
+    </style>
+
+        <div class="container-fluid hero-image" style="">
+        </div>
+
+
+    <div class="container-fluid text-card" style="background:#FAFAFA;">
+      <div class="container">
+        <div class="col-md-4">
+          <h1 style="margin-bottom: -20px;">A note on our culture</h1>
+        </div>
+        <div class="col-md-8">
+          <p>
+              Paaila Technology is a fast paced company with core focus on delivering world class Robotics and AI. It
+              comprises of self motivated, talented and hardworking people who are always learning and always pushing
+              their limits to deliver quality products and services. In a short span of time, it has delivered products
+              and services to some of the biggest names in the country - SBI Nepal Limited, nLocate, Gyani Traders
+              and many more. The trust of that these companies put in us is a testament to the quality and expertise
+              Paaila delivers in its products and to its clients.
+              <br><br>
+              You can send us your resume even when no vacancies are listed. We always appreciate and try to hire people
+              with the skills and sparks to make changes.
+           </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- start of job listing section-->
+    <div class="container job">
+
+{#      <div class="job-description row" style="">#}
+{#        <div class="col-md-6">#}
+{#          <img src="{% static "base/images/HR-Manager.png" %}" class="img img-responsive" alt="" style="">#}
+{#        </div>#}
+{#        <div class="col-md-6 post-description">#}
+{#          <h3>Senior Python Developer</h3>#}
+{#          <h4>Job Description</h4>#}
+{#          <ul>#}
+{#              <li><p>Mastery of grass cutting</p></li>#}
+{#              <li><p>Mastery of grass cutting</p></li>#}
+{#              <li><p>Mastery of grass cutting</p></li>#}
+{#              <li><p>Mastery of grass cutting</p></li>#}
+{#          </ul>#}
+{#          <h4>Job Specifications</h4>#}
+{#          <ul>#}
+{#              <li><p>Mastery of grass cutting</p></li>#}
+{#              <li><p>Mastery of grass cutting</p></li>#}
+{#              <li><p>Mastery of grass cutting</p></li>#}
+{#              <li><p>Mastery of grass cutting</p></li>#}
+{#          </ul>#}
+{#          <a href="#join-us"><button>Apply Now</button></a>#}
+{#        </div>#}
+{#      </div>#}
+
+    </div>
+    <!-- end of job listing section-->
+
+        <div class="container-fluid contact-us">
+
+      <div class="container">
+
+        <h2>Join us</h2>
+        <p>Send us your resume's pdf</p>
+
+        {% include 'base/resumeform.html' %}
+
+    </div>
+    </div>
+<script src="{% static 'base/js/send_resume.js' %}"></script>
+
+{% endblock %}

@@ -1,0 +1,100 @@
+{% extends "base/base.html" %}
+{% load staticfiles %}
+
+{% block title %}
+    <title>{{ title.title }} Paaila Technology Blog on Robotics, AI & Startup </title>
+    <meta name="description"
+          content=" The best reading resource for Nepali NLP, Robotics, State of Nepali AI and startups.">
+    {#Limit to five keywords#}
+    <meta name="keywords" content="AI, NLP, Nepali, Robotics, Startup, Technology">
+{% endblock %}
+
+
+{% block content %}
+    <div style="marig: 0; padding:0; margin-top: 60px;"
+         class="col-sm-10 col-md-10 col-md-offset-1 col-sm-offset-1 contains">
+
+        {# Form to Search the blog#}
+        <div style="padding: 20px 0" class="col-md-4 col-md-offset-3">
+            <form class="search-form" role="search">
+                <div class="input-group add-on">
+                    <input class="form-control" type="text" class="form-control" name="q"
+                           placeholder="Search Paaila's Blog"
+                           value='{{ request.GET.q }}'>
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+        {# Listing the items in the blog#}
+        <div class="list-items">
+            {% for obj in object_list %}
+
+                <div class="col-sm-12 post-list"
+                     style="margin: 0; padding: 34px 0;">
+                    <div class="fixed-div" style="">
+                        {% if obj.image %}
+                            <div class="list-image col-md-6" style="padding: 0; margin: 0">
+                                <a href='{{ obj.get_absolute_url }}'><img
+                                        src='{{ obj.image.url }}'
+                                        class="img-responsive"/></a>
+                            </div>
+                        {% endif %}
+
+                        <div class="col-md-5" style="padding: 10px 20px;">
+                            <div class="list-text">
+                                <h2 style="font-family: 'Cardo', serif;"><a style="text-decoration: none; color: black"
+                                                                            href='{{ obj.get_absolute_url }}'><b>{{ obj.title|title }}</b></a>
+                                    {#                                <small> {{ obj.published_Date|timesince }} ago</small>#}
+                                </h2>
+                            </div>
+                            <div class="author-text">
+                                {% if obj.user.get_full_name %}
+                                    <I>Author: {{ obj.user.get_full_name }}</I>
+                                {% endif %}
+
+                            </div>
+                            <div class="list-content"><p
+                                    style="font-family: 'Cardo', serif; font-size:20px; padding: 0px 0 5px 0">{{ obj.content| linebreaks | truncatechars:300 }}</p>
+                            </div>
+                            <a style="text-decoration: none; color:#000;" href='{{ obj.get_absolute_url }}'
+                               class="continue"><strong>Read
+                                more</strong></a>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+            {% endfor %}
+        </div>
+
+
+        <div class="col-sm-6 col-sm-offset-4 pagination">
+      <span class="step-links">
+        
+          {% if object_list.has_previous %}
+              <a href="?{page_req_var}=1{% if request.GET.q %}&q={{ request.GET.q }}{% endif %}">&laquo; first</a>
+              <a href="?{{ page_req_var }}=
+                      {{ object_list.previous_page_number }}{% if request.GET.q %}&q={{ request.GET.q }}{% endif %}">previous</a>
+          {% endif %}
+
+          <span class="current">
+              Page {{ object_list.number }} of {{ object_list.paginator.num_pages }}.
+          </span>
+
+          {% if object_list.has_next %}
+              <a style="text-decoration: solid" href="?{{ page_req_var }}=
+
+                      {{ object_list.next_page_number }}{% if request.GET.q %}&q={{ request.GET.q }}{% endif %}">next</a>
+              <a href="?{{ page_req_var }}=
+                      {{ object_list.paginator.num_pages }}{% if request.GET.q %}&q={{ request.GET.q }}{% endif %}">last &raquo;</a>
+          {% endif %}
+      </span>
+        </div>
+    </div>
+{% endblock %}

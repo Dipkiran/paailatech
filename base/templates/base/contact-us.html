@@ -1,0 +1,54 @@
+{% extends 'base/base.html' %}
+{% load staticfiles %}
+
+{% block title %}
+    <title>Contact Us- Paaila Technology</title>
+    <meta name="description" content="Buy or lease robots from Paaila Technology. Make a request for AI and ML services. Contact Us.">
+    <meta name="keywords" content="Paila, AI, ML, robot, service, Contact, Social Media, Phone, Paaila, Paaila Technology,
+    Technology, Nepal, Made in Nepal">
+{% endblock %}
+
+{% block content %}
+
+    <!-- Hero image -->
+{#    <div class="container-fluid hero-image" style="background-image:url(Images/vfdc.jpg);background-image:no-repeat"></div>#}
+
+        <!-- start of contact-us section  -->
+    <div class="container-fluid contact-us" style="margin-top: 55px;">
+          <div class="container">
+            <h2 style="margin:40px 0px 10px 0;">Send us a message</h2>
+            <p class="subtitle">Query or complain, we love hearing from you</p>
+
+            <div class="col">
+                {% include 'base/emailform.html' %}
+            </div>
+          </div>
+    </div>
+
+        {#    Map#}
+         <div id="map" style="height: 512px; width: 100%;"></div>
+
+        <!-- end of contact us section -->
+    <script src="{% static 'base/js/contact_us.js' %}"></script>
+
+
+
+    <script>
+      function initMap() {
+        var uluru = {lat:27.680625, lng: 85.310536};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxbeKLIXRcXB6r61G3MhyU6DsqD636_7E&callback=initMap"
+    type="text/javascript"></script>
+
+{% endblock %}
+

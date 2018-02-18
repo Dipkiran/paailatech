@@ -1,0 +1,164 @@
+{% extends 'base/base.html' %}
+{% load staticfiles %}
+
+<!-- Import CSS-->
+<link href="{% static 'robotics/css/product.css' %}" rel="stylesheet" type="text/css">
+
+{% block title %}
+    <title>AI - Paaila Technology</title>
+    <meta name="keywords" content="AI, Artificial Intelligence, ML, Machine Learning, Service, Nepal,
+    Recommendation System, Chatbot, Computer Vision, Speech, Synthesis, Recognition, Data, Science">
+    <meta name="description" content="Paaila Technology provides the best AI and ML service in Nepal. It aims at helping
+    Nepali companies embrace AI to increase their efficiency and revenue as the global trends testify.">
+{% endblock %}
+
+{% block content %}
+
+    <!--General Usage-->
+    <div style="background:#FAFAFA">
+        <style>
+            .feature img {
+                background: #3398DC;
+                padding: 0;
+            }
+
+            .description {
+                display: table;
+                text-align: left;
+                padding: 10px 10px;
+            }
+
+        </style>
+
+        {#        <div class="container expand-container" style="padding:calc(2vw + 1em) 0 calc(1vw + 1em) 0;">#}
+        <div class="container expand-container" style="margin-top: 70px;text-align: center;padding:30px 0 0px 0">
+            <h1 style="text-align:center" class="subtitle">Artificial Intelligence Services</h1>
+            <h2 style="margin:1.2vh 0px 3vh 0;text-align:center">Helping you levarge the power of AI</h2>
+
+            <br>
+            <p class="text" style="text-align: left;padding:0 2vw">
+                <strong><a style="text-decoration: none; font-family: inherit;font-size: inherit"
+                           href="https://www.google.com/search?q=companies+benefitting+from+ai+and+ml" target="_blank">Researches
+                    have proven </a></strong> that the companies embracing Artificial Intelligence have higher revenues
+                than those who are shy of embracing AI. Paaila Technology which has amassed Artificial Intelligence
+                expertise
+                and talents building AI tools and technologies for its' robots wants to help Nepali companies integrate
+                AI technologies into their products and services while also advancing state of the art. The Artificial
+                Intelligence and Machine Learning services provided are listed below.
+            </p>
+            <br>
+            <br>
+
+            {#            <br>#}
+            <div class="" style="margin-top:10px;">
+
+                <div class="container">
+                    {#                <hr>#}
+
+                    <div class="container">
+                        <div id='query-answering-system' class="col-md-6 col-sm-6 feature usage" style="">
+                            <a><img src="{% static "robotics/images/Paaila Technology Icon_query answering system.png" %}"
+                                    alt="Logo of Query Answering System using AI / ML for your business"
+                                    class="img img-responsive"></a>
+                        </div>
+                        <div class="col-md-6 description" style="text-align: left">
+                            <h3>Query Answering System</h3>
+                            <p class="text">
+                                Banks, telecom companies, business seller, finance, e commerce, every customer centered
+                                businesses must offer a quick and accurate solutions to the inquiries your customers
+                                seek.
+                                Query is one of our secure and scalable products for intelligent communication platform
+                                to
+                                actively engage with your valuable customers. It will answer all the queries of your
+                                customers
+                                while maintaining a record of the nature of conversation, topic of query and other
+                                information
+                                so that you can take future decisions based on it to improve your business performance.
+                                You integrate it in your social networks or web apps.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="container">
+                        <div id="nepali-speech-recognition" class="col-md-6 col-sm-6 feature usage" style="">
+                            <a><img src="{% static "robotics/images/Paaila Technology Icon_speech recognition.png" %}"
+                                    alt="Icon for Nepali Speech Recognition using state of the art ai"
+                                    class="img img-responsive"></a>
+                        </div>
+                        <div class="col-md-6 description" style="text-align: left">
+                            <h3>Nepali Speech Recognition</h3>
+                            <p class="text"> Speech Recognition helps you understand what a person is saying. Nepali
+                                Speech
+                                Recognition Service from Paaila Technology can be your most cost efficient and reliable
+                                way to generate automatic caption for videos or transcribe audios. The transcribed text
+                                can
+                                further be used to generate meaningful insights.
+                            </p>
+                            <br>
+                            <p class="text"> API coming soon.</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div id="nepali-text-to-speech" class="col-md-6 col-sm-6 feature usage" style="">
+                            <a><img src="{% static "robotics/images/Paaila Technology Icon_text to speech.png" %}"
+                                    alt="Icon for state of the art Nepali Text to speech or voice synthesis."
+                                    class="img img-responsive"></a>
+                        </div>
+                        <div id="nepali-text-to-speech" class="col-md-6 description" style="text-align: left">
+                            <h3>Nepali Text To Speech</h3>
+                            <p class="text">Nepali Text to Speech is a service which enables you to convert a Nepali
+                                text
+                                into Nepali speech.
+                                It can help you to make your websites more friendly and accessible to hearing impaired
+                                audience.
+                                It can be a wonderful narrator to turn your books into audio books in a low cost and
+                                reliable manner.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div id="recommendation-system" class="col-md-6 col-sm-6 feature usage" style="">
+                        <a><img src="{% static "robotics/images/Paaila Technology Icon_recommendation system.png" %}"
+                                alt="Icon for Recommendation System powered by AI / ML for online businesses"
+                                class="img img-responsive"></a>
+                    </div>
+                    <div class="col-md-6 description" style="">
+                        <h3>Recommendation System</h3>
+                        <p class="text"> We are witnessing deluge of eCommerce, digital publishing houses and other
+                            online ventures. Recommendation systems are going to become number one differentiator.
+                            That's what made Amazon, Netflix, Youtube, Flipkart into the giants they are today.
+                            If you're a publishing house implementing recommendation systems means
+                            more readers engage with your services in more meaningful ways which implies
+                            increased revenue. For ecommerce, it means your customers see the products
+                            that they might actually want to buy rather than seeing just random products.
+                            increasing the confidence of customers in your services.
+                        </p>
+                    </div>
+                </div>
+
+                {#                <hr>#}
+
+            </div>
+        </div>
+    </div>
+    <!--End of methodoloy-->
+
+
+    <!--start of common section  -->
+    <!-- start of contact-us section  -->
+    <div class="container-fluid contact-us">
+        <div class="container">
+            <h2 style="margin:40px 0px 10px 0;">Know more about our Artificial Intelligence Services</h2>
+            <p class="subtitle">Shoot any queries</p>
+
+            {% include 'base/emailform.html' %}
+
+        </div>
+    </div>
+
+    <!-- end of contact us section -->
+    <script src="{% static 'base/js/contact_us.js' %}"></script>
+
+{% endblock %}

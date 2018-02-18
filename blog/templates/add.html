@@ -1,0 +1,31 @@
+{% extends "base/base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+    <style>
+        form {
+        {#            width: 1800px;#}
+        }
+
+        textarea {
+            height: 350px;
+            width: 900px;
+        }
+
+    </style>
+
+    <div  style="margin-top: 70px;" class="col-md-8 col-md-offset-2">
+
+        <form method='POST' action='' enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <script>
+                // Replace the <textarea id="editor1"> with a CKEditor
+                // instance, using default configuration.
+                CKEDITOR.replace( 'content' );
+
+            </script>
+            <input type='submit' value='Post' class="post"/>
+        </form>
+    </div>
+{% endblock %}

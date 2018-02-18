@@ -1,0 +1,13 @@
+<form action="{% url 'base:message' %}" method="post" id="contactForm" style="text-align: center;margin: 0 auto">
+    {% csrf_token %}
+    <strong id="contactformMessage">{{ status }}</strong>
+    {{ form.non_field_errors }}
+
+      {{ form.name.errors }}
+      <input type="text" id="name" name="{{ form.name.html_name }}" placeholder="Your name" value="">
+      {{ form.email.errors }}
+      <input type="email" id="email" name="{{ form.email.html_name }}" value="" placeholder="Your email">
+      {{ form.message.errors }}
+      <textarea id="message" name="{{ form.message.html_name }}" placeholder="Your query here"></textarea>
+    <input type="submit" value="Submit" style="float:right">
+</form>

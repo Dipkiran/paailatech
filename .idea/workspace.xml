@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a4cd5cb-2604-405b-812a-8652cbdfee94" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/1385370-200.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/2224297806_19bf06d0da_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/2224297806_19bf06d0da_b_TxmaCum.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/25346378_10210930170074675_108871436_o.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/BPKoirala2067BS_TeenGhumti.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Paaila_Technology_Icon_Robotics_and_AI_copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Paaila_Technology_room_service_robot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Paaila_Technology_waiter_robot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/childwithphoneanthonykellyflickr.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/childwithphoneanthonykellyflickr_coM5BfV.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/ma18-qazuckerman1_0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/paaila_technology_team.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/fonts/Roboto-Bold-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/fonts/Roboto-Light-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/fonts/Roboto-Regular-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base/static/css/blogform.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/migrations/0002_post_keywords.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/footer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/header.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/owl.carousel.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/templates/add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/templates/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/templates/message.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/templates/postdetail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paailatech/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paailatech/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/css/autocomplete.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/css/changelists.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/css/dashboard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/css/fonts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/css/forms.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/css/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/css/responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/css/responsive_rtl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/css/rtl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/css/vendor/select2/LICENSE-SELECT2.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/css/vendor/select2/select2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/css/vendor/select2/select2.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/css/widgets.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/fonts/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/fonts/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/calendar-icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/gis/move_vertex_off.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/gis/move_vertex_on.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/icon-addlink.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/icon-alert.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/icon-calendar.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/icon-changelink.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/icon-clock.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/icon-deletelink.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/icon-no.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/icon-unknown-alt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/icon-unknown.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/icon-yes.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/inline-delete.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/search.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/selector-icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/sorting-icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/tooltag-add.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/tooltag-arrowright.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/SelectBox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/SelectFilter2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/actions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/actions.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/admin/DateTimeShortcuts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/admin/RelatedObjectLookups.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/autocomplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/cancel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/change_form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/collapse.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/inlines.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/inlines.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/jquery.init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/popup_response.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/prepopulate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/prepopulate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/prepopulate_init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/timeparse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/urlify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/jquery/LICENSE-JQUERY.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/jquery/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/LICENSE-SELECT2.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/az.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/ms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/pt-BR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/sr-Cyrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/zh-CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/i18n/zh-TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/select2.full.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/select2/select2.full.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/xregexp/xregexp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/xregexp/xregexp.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/css/client.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/css/faq.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/css/footer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/css/form.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/css/header.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/css/jobs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/css/owl.carousel.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/css/product.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/css/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/css/video.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/templates/blog/form-template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/templates/blog/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/templates/blog/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/templates/blog/post_list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/templates/blog/posts_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/templates/blog/signup.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/static/img/logo.png" afterPath="$PROJECT_DIR$/blog/static/img/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/admin.py" afterPath="$PROJECT_DIR$/base/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/templates/base/base.html" afterPath="$PROJECT_DIR$/base/templates/base/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/urls.py" afterPath="$PROJECT_DIR$/base/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/admin.py" afterPath="$PROJECT_DIR$/blog/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/apps.py" afterPath="$PROJECT_DIR$/blog/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/forms.py" afterPath="$PROJECT_DIR$/blog/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/models.py" afterPath="$PROJECT_DIR$/blog/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/static/css/blog.css" afterPath="$PROJECT_DIR$/blog/static/css/blog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/urls.py" afterPath="$PROJECT_DIR$/blog/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/blog/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django_project/settings.py" afterPath="$PROJECT_DIR$/django_project/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django_project/urls.py" afterPath="$PROJECT_DIR$/django_project/urls.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/static_cdn/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/demo.css" afterPath="$PROJECT_DIR$/static_cdn/css/demo.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/now-ui-kit.css" afterPath="$PROJECT_DIR$/static_cdn/css/now-ui-kit.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/fonts/font-awesome.css" afterPath="$PROJECT_DIR$/static_cdn/fonts/font-awesome.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/fonts/font-awesome.min.css" afterPath="$PROJECT_DIR$/static_cdn/fonts/font-awesome.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/fonts/font.css" afterPath="$PROJECT_DIR$/static_cdn/fonts/font.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/fonts/nucleo-outline.eot" afterPath="$PROJECT_DIR$/static_cdn/fonts/nucleo-outline.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/fonts/nucleo-outline.ttf" afterPath="$PROJECT_DIR$/static_cdn/fonts/nucleo-outline.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/fonts/nucleo-outline.woff" afterPath="$PROJECT_DIR$/static_cdn/fonts/nucleo-outline.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/fonts/nucleo-outline.woff2" afterPath="$PROJECT_DIR$/static_cdn/fonts/nucleo-outline.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/1.jpg" afterPath="$PROJECT_DIR$/static_cdn/img/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/2.jpg" afterPath="$PROJECT_DIR$/static_cdn/img/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/apple-icon.png" afterPath="$PROJECT_DIR$/static_cdn/img/apple-icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/avatar.jpg" afterPath="$PROJECT_DIR$/static_cdn/img/avatar.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/bg1.jpg" afterPath="$PROJECT_DIR$/static_cdn/img/bg1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/bg11.jpg" afterPath="$PROJECT_DIR$/static_cdn/img/bg11.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/bg3.jpg" afterPath="$PROJECT_DIR$/static_cdn/img/bg3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/bg4.jpg" afterPath="$PROJECT_DIR$/static_cdn/img/bg4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/bg5.jpg" afterPath="$PROJECT_DIR$/static_cdn/img/bg5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/bg6.jpg" afterPath="$PROJECT_DIR$/static_cdn/img/bg6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/bg7.jpg" afterPath="$PROJECT_DIR$/static_cdn/img/bg7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/bg8.jpg" afterPath="$PROJECT_DIR$/static_cdn/img/bg8.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/blurred-image-1.jpg" afterPath="$PROJECT_DIR$/static_cdn/img/blurred-image-1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/creative-tim-white-slim2.png" afterPath="$PROJECT_DIR$/static_cdn/img/creative-tim-white-slim2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/default-avatar.png" afterPath="$PROJECT_DIR$/static_cdn/img/default-avatar.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/eva.jpg" afterPath="$PROJECT_DIR$/static_cdn/img/eva.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/favicon.png" afterPath="$PROJECT_DIR$/static_cdn/img/favicon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/AD.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/AD.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/AE.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/AE.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/AG.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/AG.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/AM.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/AM.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/AR.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/AR.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/AT.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/AT.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/AU.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/AU.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/BE.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/BE.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/BF.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/BF.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/BG.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/BG.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/BO.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/BO.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/BR.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/BR.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/CA.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/CA.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/CD.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/CD.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/CG.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/CG.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/CH.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/CH.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/CL.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/CL.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/CM.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/CM.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/CN.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/CN.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/CO.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/CO.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/CZ.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/CZ.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/DE.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/DE.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/DJ.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/DJ.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/DK.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/DK.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/DZ.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/DZ.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/EE.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/EE.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/EG.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/EG.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/ES.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/ES.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/FI.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/FI.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/FR.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/FR.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/GA.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/GA.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/GB.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/GB.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/GM.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/GM.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/GT.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/GT.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/HN.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/HN.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/HT.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/HT.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/HU.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/HU.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/ID.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/ID.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/IE.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/IE.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/IL.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/IL.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/IN.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/IN.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/IQ.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/IQ.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/IR.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/IR.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/IT.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/IT.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/JM.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/JM.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/JO.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/JO.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/JP.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/JP.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/KG.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/KG.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/KN.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/KN.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/KP.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/KP.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/KR.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/KR.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/KW.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/KW.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/KZ.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/KZ.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/LA.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/LA.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/LB.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/LB.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/LC.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/LC.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/LS.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/LS.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/LU.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/LU.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/LV.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/LV.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/MG.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/MG.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/MK.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/MK.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/ML.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/ML.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/MM.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/MM.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/MT.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/MT.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/MX.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/MX.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/NA.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/NA.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/NE.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/NE.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/NG.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/NG.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/NI.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/NI.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/NL.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/NL.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/NO.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/NO.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/OM.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/OM.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/PA.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/PA.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/PE.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/PE.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/PG.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/PG.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/PK.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/PK.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/PL.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/PL.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/PT.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/PT.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/PY.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/PY.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/QA.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/QA.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/RO.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/RO.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/RU.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/RU.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/RW.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/RW.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/SA.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/SA.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/SE.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/SE.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/SG.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/SG.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/SL.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/SL.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/SN.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/SN.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/SO.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/SO.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/SV.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/SV.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/TD.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/TD.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/TJ.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/TJ.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/TL.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/TL.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/TR.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/TR.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/TZ.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/TZ.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/UA.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/UA.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/US.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/US.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/VE.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/VE.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/VN.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/VN.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/flags/YE.png" afterPath="$PROJECT_DIR$/static_cdn/img/flags/YE.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/gregorywest.png" afterPath="$PROJECT_DIR$/static_cdn/img/gregorywest.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/header.jpg" afterPath="$PROJECT_DIR$/static_cdn/img/header.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/hello.png" afterPath="$PROJECT_DIR$/static_cdn/img/hello.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/hero-image-1.png" afterPath="$PROJECT_DIR$/static_cdn/img/hero-image-1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/hero-image-2.png" afterPath="$PROJECT_DIR$/static_cdn/img/hero-image-2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/hero-image-3.png" afterPath="$PROJECT_DIR$/static_cdn/img/hero-image-3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/invision-white-slim.png" afterPath="$PROJECT_DIR$/static_cdn/img/invision-white-slim.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/landing.jpg" afterPath="$PROJECT_DIR$/static_cdn/img/landing.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/login.jpg" afterPath="$PROJECT_DIR$/static_cdn/img/login.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/logo-square.jpg" afterPath="$PROJECT_DIR$/static_cdn/img/logo-square.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/now-logo.png" afterPath="$PROJECT_DIR$/static_cdn/img/now-logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/nucleo-logo.svg" afterPath="$PROJECT_DIR$/static_cdn/img/nucleo-logo.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/paaila_intro.jpg" afterPath="$PROJECT_DIR$/static_cdn/img/paaila_intro.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/pari.png" afterPath="$PROJECT_DIR$/static_cdn/img/pari.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/profile.jpg" afterPath="$PROJECT_DIR$/static_cdn/img/profile.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/img/ryan.jpg" afterPath="$PROJECT_DIR$/static_cdn/img/ryan.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/js/core/bootstrap.min.js" afterPath="$PROJECT_DIR$/static_cdn/js/core/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/js/core/jquery.3.2.1.min.js" afterPath="$PROJECT_DIR$/static_cdn/js/core/jquery.3.2.1.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/js/core/popper.min.js" afterPath="$PROJECT_DIR$/static_cdn/js/core/popper.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/js/now-ui-kit.js" afterPath="$PROJECT_DIR$/static_cdn/js/now-ui-kit.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/js/plugins/bootstrap-datepicker.js" afterPath="$PROJECT_DIR$/static_cdn/js/plugins/bootstrap-datepicker.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/js/plugins/bootstrap-switch.js" afterPath="$PROJECT_DIR$/static_cdn/js/plugins/bootstrap-switch.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/js/plugins/jquery.sharrre.js" afterPath="$PROJECT_DIR$/static_cdn/js/plugins/jquery.sharrre.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/js/plugins/nouislider.min.js" afterPath="$PROJECT_DIR$/static_cdn/js/plugins/nouislider.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_alerts.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_alerts.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_badges.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_badges.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_buttons.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_buttons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_cards.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_cards.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_carousel.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_carousel.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_checkboxes-radio.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_checkboxes-radio.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_dropdown.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_dropdown.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_example-pages.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_example-pages.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_footers.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_footers.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_images.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_images.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_inputs.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_inputs.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_misc.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_misc.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_mixins.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_mixins.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_modals.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_modals.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_navbar.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_navbar.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_nucleo-outline.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_nucleo-outline.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_pagination.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_pagination.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_pills.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_pills.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_popups.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_popups.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_progress.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_progress.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_responsive.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_responsive.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_sections.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_sections.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_social-buttons.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_social-buttons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_tabs.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_tabs.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_typography.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_typography.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/_variables.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/_variables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/mixins/_badges.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/mixins/_badges.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/mixins/_buttons.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/mixins/_buttons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/mixins/_datepicker.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/mixins/_datepicker.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/mixins/_dropdown.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/mixins/_dropdown.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/mixins/_inputs.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/mixins/_inputs.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/mixins/_modals.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/mixins/_modals.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/mixins/_navbar.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/mixins/_navbar.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/mixins/_pages.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/mixins/_pages.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/mixins/_popovers.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/mixins/_popovers.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/mixins/_transparency.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/mixins/_transparency.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/mixins/_vendor-prefixes.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/mixins/_vendor-prefixes.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/plugins/_plugin-bootstrap-switch.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/plugins/_plugin-bootstrap-switch.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/plugins/_plugin-datepicker.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/plugins/_plugin-datepicker.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/sass/now-ui-kit/plugins/_plugin-nouislider.scss" afterPath="$PROJECT_DIR$/static_cdn/sass/now-ui-kit/plugins/_plugin-nouislider.scss" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/django_project$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1511333606201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="blogform.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base/static/css/blogform.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/templates/add.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="message.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/templates/message.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="postdetail.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/templates/postdetail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/templates/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1496">
+              <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>on_delete</find>
+      <find>feature</find>
+      <find>hr</find>
+      <find>is coming</find>
+      <find>alt</find>
+      <find>h1</find>
+      <find>TEMPLATES</find>
+      <find>TEMPLATE_DEBUG</find>
+      <find>login_</find>
+      <find>@login_required</find>
+      <find>@method_decorator</find>
+      <find>accounts</find>
+      <find>account</find>
+      <find>signup</find>
+      <find>post_detail</find>
+      <find>paailablog</find>
+      <find>index</find>
+      <find>block</find>
+      <find>registration</find>
+      <find>image</find>
+      <find>@</find>
+      <find>login</find>
+      <find>caption</find>
+      <find>home</find>
+      <find>BASE_DIR</find>
+      <find>STATICFILES</find>
+      <find>media</find>
+      <find>red</find>
+      <find>my_view</find>
+      <find>get_redirected</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>hero-intro</replace>
+      <replace>#@login_required</replace>
+      <replace>#@method_decorator</replace>
+      <replace>#@</replace>
+      <replace>blog</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/home/templates/signup.html" />
+        <option value="$PROJECT_DIR$/paailablog/urls.py" />
+        <option value="$PROJECT_DIR$/home/templates/home/base.html" />
+        <option value="$PROJECT_DIR$/home/templates/home/index.html" />
+        <option value="$PROJECT_DIR$/home/templates/home/login.html" />
+        <option value="$PROJECT_DIR$/home/templates/home/signup.html" />
+        <option value="$PROJECT_DIR$/base/templates/base/careers.html" />
+        <option value="$PROJECT_DIR$/home/urls.py" />
+        <option value="$PROJECT_DIR$/home/templates/home/form-template.html" />
+        <option value="$PROJECT_DIR$/home/templates/home/posts_form.html" />
+        <option value="$PROJECT_DIR$/home/views.py" />
+        <option value="$PROJECT_DIR$/home/models.py" />
+        <option value="$PROJECT_DIR$/home/templates/home/post_detail.html" />
+        <option value="$PROJECT_DIR$/home/templates/home/post_list.html" />
+        <option value="$PROJECT_DIR$/blog/apps.py" />
+        <option value="$PROJECT_DIR$/blog/migrations/0002_auto_20171016_2123.py" />
+        <option value="$PROJECT_DIR$/blog/migrations/0003_auto_20171016_2134.py" />
+        <option value="$PROJECT_DIR$/blog/migrations/0004_auto_20171018_1612.py" />
+        <option value="$PROJECT_DIR$/blog/migrations/0005_auto_20171019_0952.py" />
+        <option value="$PROJECT_DIR$/blog/migrations/0006_auto_20171019_1134.py" />
+        <option value="$PROJECT_DIR$/blog/migrations/0007_auto_20180122_1956.py" />
+        <option value="$PROJECT_DIR$/blog/migrations/0008_auto_20180123_1231.py" />
+        <option value="$PROJECT_DIR$/blog/migrations/0009_auto_20180124_1055.py" />
+        <option value="$PROJECT_DIR$/blog/migrations/0010_auto_20180124_1058.py" />
+        <option value="$PROJECT_DIR$/blog/migrations/0011_auto_20180124_1106.py" />
+        <option value="$PROJECT_DIR$/blog/migrations/0012_auto_20180124_1115.py" />
+        <option value="$PROJECT_DIR$/blog/migrations/0013_auto_20180124_1119.py" />
+        <option value="$PROJECT_DIR$/blog/migrations/0014_auto_20180124_1120.py" />
+        <option value="$PROJECT_DIR$/blog/migrations/0015_auto_20180124_1122.py" />
+        <option value="$PROJECT_DIR$/blog/templates/blog/login.html" />
+        <option value="$PROJECT_DIR$/blog/templates/blog/posts_form.html" />
+        <option value="$PROJECT_DIR$/paaila-master/paailatech/settings.py" />
+        <option value="$PROJECT_DIR$/paaila-master/paailatech/urls.py" />
+        <option value="$PROJECT_DIR$/django_project/settings.py" />
+        <option value="$PROJECT_DIR$/blog/static/css/style.css" />
+        <option value="$PROJECT_DIR$/blog/templates/base.html" />
+        <option value="$PROJECT_DIR$/base/urls.py" />
+        <option value="$PROJECT_DIR$/base/templates/base/base.html" />
+        <option value="$PROJECT_DIR$/blog/static/css/blog.css" />
+        <option value="$PROJECT_DIR$/base/admin.py" />
+        <option value="$PROJECT_DIR$/django_project/urls.py" />
+        <option value="$PROJECT_DIR$/base/static/css/blogform.css" />
+        <option value="C:/Python35/Lib/site-packages/django/forms/forms.py" />
+        <option value="$PROJECT_DIR$/blog/static/css/base.css" />
+        <option value="$PROJECT_DIR$/blog/urls.py" />
+        <option value="$PROJECT_DIR$/blog/templates/add.html" />
+        <option value="$PROJECT_DIR$/blog/models.py" />
+        <option value="$PROJECT_DIR$/blog/views.py" />
+        <option value="$PROJECT_DIR$/blog/forms.py" />
+        <option value="$PROJECT_DIR$/blog/templates/list.html" />
+        <option value="$PROJECT_DIR$/blog/templates/postdetail.html" />
+      </list>
+    </option>
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="django_project/invalid/Django" />
+    </ignored-facets>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1260" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyInterpreterInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="django_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_project" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_project" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_project" type="462c0819:PsiDirectoryNode" />
+              <item name="django_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Websites\django_project\robotics\templates\robotics" />
+      <recent name="E:\Websites\django_project\base\templates\base" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Websites\django_project\home\templates\home" />
+      <recent name="E:\Websites\django_project\home" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.urls">
+    <configuration name="Test: robotics.templates.robotics.robotics.html" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="django_project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="robotics.templates.robotics.robotics.html" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+    </configuration>
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="django_project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="django_project" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="django_project" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+    <configuration name="urls" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robotics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="django_project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robotics/urls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="views (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="django_project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robotics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="django_project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robotics/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Django server.django_project" />
+      <item index="1" class="java.lang.String" itemvalue="Python.urls" />
+      <item index="2" class="java.lang.String" itemvalue="Django tests.Test: robotics.templates.robotics.robotics.html" />
+      <item index="3" class="java.lang.String" itemvalue="Python.__init__" />
+      <item index="4" class="java.lang.String" itemvalue="Python.views" />
+      <item index="5" class="java.lang.String" itemvalue="Python.views (1)" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.views (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.views" />
+        <item index="2" class="java.lang.String" itemvalue="Python.__init__" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a4cd5cb-2604-405b-812a-8652cbdfee94" name="Default" comment="" />
+      <created>1504180761237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1504180761237</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1260" height="1047" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44312027" sideWeight="0.5273523" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3379092" sideWeight="0.48958334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32597265" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32713348" sideWeight="0.4726477" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@django_project" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/blog/media/post_images/bg5.jpg" />
+    <entry file="file://$PROJECT_DIR$/blog/media/post_images/bg6.jpg" />
+    <entry file="file://$PROJECT_DIR$/blog/media/post_images/bg6_jvxjJgX.jpg" />
+    <entry file="file://$PROJECT_DIR$/blog/media/post_images/bg11.jpg" />
+    <entry file="file://$PROJECT_DIR$/blog/media/post_images/tu.png" />
+    <entry file="file://$PROJECT_DIR$/blog/media/post_images/Screenshot_39_QAoQOb7.png" />
+    <entry file="file://$PROJECT_DIR$/blog/media/post_images/Screenshot_39_l6gtKzZ.png" />
+    <entry file="file://$PROJECT_DIR$/blog/media/post_images/Screenshot_39.png" />
+    <entry file="file://$PROJECT_DIR$/blog/media/post_images/Screenshot_27_hpLzI9m.png" />
+    <entry file="file://$PROJECT_DIR$/blog/media/post_images/Screenshot_27.png" />
+    <entry file="file://$PROJECT_DIR$/blog/media/post_images/logo-square.jpg" />
+    <entry file="file://$PROJECT_DIR$/blog/media/post_images/logo.png" />
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/base.html" />
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/form-template.html" />
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/index.html" />
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/login.html" />
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_detail.html" />
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/posts_form.html" />
+    <entry file="file://$PROJECT_DIR$/blog/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paaila-master/paailatech/urls.py" />
+    <entry file="file://$PROJECT_DIR$/blog/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paaila-master/paailatech/settings.py" />
+    <entry file="file://$PROJECT_DIR$/blog/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-403">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_project/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="127" column="42" lean-forward="false" selection-start-line="127" selection-start-column="42" selection-end-line="127" selection-end-column="42" />
+          <folding>
+            <marker date="1518330845688" expanded="true" signature="1816:2197" ph="..." />
+            <marker date="1518330845688" expanded="true" signature="1816:2200" ph="..." />
+            <marker date="1518330845688" expanded="true" signature="1874:2190" ph="..." />
+            <marker date="1518330845688" expanded="true" signature="1910:2179" ph="..." />
+            <marker date="1518330845688" expanded="true" signature="2257:2331" ph="..." />
+            <marker date="1518330845688" expanded="true" signature="2346:2472" ph="..." />
+            <marker date="1518330845688" expanded="true" signature="2363:2470" ph="..." />
+            <marker date="1518330845688" expanded="true" signature="2475:2575" ph="..." />
+            <marker date="1518330845688" expanded="true" signature="2605:2999" ph="..." />
+            <marker date="1518330845688" expanded="true" signature="2611:2708" ph="..." />
+            <marker date="1518330845688" expanded="true" signature="2716:2803" ph="..." />
+            <marker date="1518330845688" expanded="true" signature="2811:2899" ph="..." />
+            <marker date="1518330845688" expanded="true" signature="2907:2996" ph="..." />
+            <marker date="1518330845688" expanded="true" signature="3003:3078" ph="..." />
+            <marker date="1518330845688" expanded="true" signature="3326:3598" ph="..." />
+            <marker date="1518330845688" expanded="true" signature="3645:3710" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paaila-master/paailatech/wsgi.py" />
+    <entry file="file://$PROJECT_DIR$/blog/static/css/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="112" column="11" lean-forward="false" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/base.html" />
+    <entry file="file://$PROJECT_DIR$/base/templates/base/about-us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_project/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding>
+            <element signature="e#641#682#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/static/css/form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/templates/base/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/static/css/blog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/static/css/blogform.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python35/Lib/site-packages/django/forms/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="291" column="0" lean-forward="false" selection-start-line="291" selection-start-column="0" selection-end-line="291" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="300" column="1" lean-forward="false" selection-start-line="300" selection-start-column="1" selection-end-line="300" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/templates/base/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2074">
+          <caret line="122" column="53" lean-forward="false" selection-start-line="122" selection-start-column="46" selection-end-line="122" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="558" column="13" lean-forward="false" selection-start-line="558" selection-start-column="13" selection-end-line="558" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/message.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python35/Lib/site-packages/django/core/handlers/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="112" column="8" lean-forward="false" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="33" column="56" lean-forward="false" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/postdetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

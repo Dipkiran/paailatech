@@ -1,0 +1,37 @@
+.content {
+    margin-left: 40px;
+}
+
+.date {
+    color: #828282;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+    .post{
+        border-bottom: 1px dashed #DADADA;
+        font-family: 'Lato', sans-serif;
+        border-bottom: 3px solid #EAEAEA;
+        padding: 10vh 0;
+    }
+
+    .post-text{
+        margin: 15px 0 25px 0;
+        color:#222;
+        padding: 3vh 0;
+        font-family: 'Cardo', serif;
+        /*font-family: 'Lustria', serif;*/
+        /*font-family: 'Source Serif Pro', serif;*/
+        font-size: 20px;
+
+    }
+
+    .post-title{
+        font-family: 'Lato', sans-serif;
+        margin: 4vh 0 2vh 0;
+        text-decoration: none;
+
+    }
+

@@ -1,0 +1,197 @@
+{% extends 'base/base.html' %}
+{% load staticfiles %}
+
+{% block title %}
+    <title>Automatic Dhara</title>
+    <meta name="description" content="Automatic Dhara can solve all your water hassles. There are two models : Wired and Wireless">
+    <meta name="keywords" content="Water Level Controller, Automatic, Hassles, Water, Paaila, Paaila Technology,
+    Technology, Nepal, Robot and Industrial Automation, Automation, Robot, Made in Nepal">
+{% endblock %}
+
+
+{% block content %}
+
+{#    <style>#}
+{#        .hero-image{#}
+{#        background: white center url({% static 'dhara/images/Ad and covers-02.png' %}) no-repeat;#}
+{#        }#}
+{##}
+{#        @media screen and (max-width: 800px) {#}
+{#            .hero-image{#}
+{#                background: white center url({% static 'dhara/images/Ad and covers_Robot cover small copy.jpg' %}) no-repeat;#}
+{#            }#}
+{#        }#}
+{##}
+{#        @media screen and (max-width: 480px) {#}
+{#            .hero-image{#}
+{#                background: white center url({% static 'dhara/images/Ad and covers_Dhara Very small.png' %}) no-repeat;#}
+{#            }#}
+{#        }#}
+{#    </style>#}
+
+    {#Introductory Video#}
+    <div class="container-fluid">
+        <p class="subtitle" style="margin-top: 70px;text-align: center;padding:30px 0 0px 0">Solve all your water hassles</p>
+        <h1 id="hero-intro" style="text-align: center;font-size:60px; padding-bottom: 40px">Automatic Dhara</h1>
+          <div class="container" style="">
+            <div class="video-responsive">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4IsrGWNsRxE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+      </div>
+    </div>
+
+
+    <!--General Feature-->
+    <div id="models" class="container" style="padding:8vh 0">
+
+      <p class="subtitle">Devices to suit every needs</p>
+      <h2 class="title">Models of Automatic Dhara</h2>
+
+      <div class="" style="margin-top:10px">
+        <div class="col-md-6 col-sm-6 feature">
+          <a><img src="{% static "dhara/images/Thumbnail Images dhara wired.jpg" %}" class="img img-responsive" alt="" ></a>
+          <h2>Wired Automatic Dhara</h2>
+          <p class="text">Reliable and efficient water level controllers at affordable price.</p>
+        </div>
+
+        <div class="col-md-6 col-sm-6 feature">
+          <a><img src="{% static "dhara/images/Thumbnail Images dhara wireless.png" %}" class="img img-responsive" alt="" ></a>
+            <h2>Wireless Automatic Dhara</h2>
+            <p class="text">Do away with wiring hassles. It works good with both long and short range distance.</p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!--General Specfications-->
+    <div id="features" class="container-fluid" style="background-color:#EFEFEF;padding:4vh 0">
+      <div class="container" style="margin:25px auto;">
+        <p class="subtitle">Stuffed with features you require</p>
+        <h2 class="title" >Features</h2>
+        <div style="display:table;margin:25px auto;">
+
+            <style>
+            .specs p{
+               font-size:16px;
+            }
+
+            .specs img{
+                height: 180px;
+            }
+
+                .col-md-3, .specs{
+                    display: table-cell;
+                    height: 300px;
+                }
+            </style>
+          <!--  products.css-->
+          <div class="col-md-3 col-sm-4 col-xs-6 specs">
+            <a><img src="{% static "dhara/images/tools.svg" %}" class="img img-responsive" alt="Free installation of automatic dhara" style=""></a>
+            <h3>Free installation</h3>
+            <p>Covers (upto 90m.) wire required for installation.</p>
+          </div>
+
+         <div class="col-md-3 col-sm-4 col-xs-6 specs">
+            <a><img src="{% static "dhara/images/warranty.svg" %}" class="img img-responsive" alt="power rating" style=""></a>
+            <h3>1 year warranty</h3>
+            <p>We know you love warranties.<br> &nbsp</p>
+          </div>
+
+          <div class="col-md-3 col-sm-4 col-xs-6 specs">
+            <a><img src="{% static "dhara/images/service.svg" %}" class="img img-responsive" alt="power rating" style=""></a>
+            <h3>Quality Customer Service</h3>
+            <p>We put you first.<br> &nbsp</p>
+          </div>
+
+          <div class="col-md-3 col-sm-4 col-xs-6 specs">
+            <a><img src="{% static "dhara/images/bulb.svg" %}" class="img img-responsive" alt="power rating" style=""></a>
+            <h3>Saves Electricity</h3>
+            <p>Uses advanced engineering to reduce your electricity bill.</p>
+          </div>
+
+          <div class="col-md-3 col-sm-4 col-xs-6 specs">
+            <a><img src="{% static "dhara/images/water.svg" %}" class="img img-responsive" alt="power rating" style=""></a>
+            <h3>Saves Water</h3>
+            <p>No more water overflow & no more empty tanks.</p>
+          </div>
+
+          <div class="col-md-3 col-sm-4 col-xs-6 specs">
+            <a><img src="{% static "dhara/images/time.svg" %}" class="img img-responsive" alt="power rating" style=""></a>
+            <h3>Saves Time</h3>
+            <p>So that you can focus on what's important</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--  end of specs-->
+
+
+
+    <!-- start of FAQ -->
+    <div id="faq" class="container faqq">
+      <h2 style="margin:80px 0">Automatic Dhara FAQ&nbsp<i class="fa fa-angle-down" aria-hidden="true"></i><i class="fa fa-angle-up" aria-hidden="true"></i></h2>
+
+      <div class="question-answer">
+        <h3 class="text">What is automatic Dhara?<img class="fa fa-plus" src="{% static 'base/images/Arrow_minus.png' %}"><img class="fa fa-times" src="{% static 'base/images/Arrow_plus.png' %}"></h3>
+        <p class="text"> Automatic Dhara is a system that monitors your tank and reservoir so that your tank never becomes empty and never overflows. Also, you won’t have to worry about load shedding schedule to fill up your tanks because it automatically starts working when there is electricity. We believe people should have more leisure time!</p>
+      </div>
+
+      <div class="question-answer">
+        <h3 class="text">How does Automatic Dhara work?<img class="fa fa-plus" src="{% static 'base/images/Arrow_minus.png' %}"><img class="fa fa-times" src="{% static 'base/images/Arrow_plus.png' %}"></h3>
+        <p class="text"> It has float sensors which sense water level in tank and optionally in reservoirs. If tank becomes empty, automatic dhara starts the motor and switches off the motor when the tank becomes full. </p>
+      </div>
+
+      <div class="question-answer">
+        <h3 class="text">What are the advantages of using Automatic Dhara?<img class="fa fa-plus" src="{% static 'base/images/Arrow_minus.png' %}"><img class="fa fa-times" src="{% static 'base/images/Arrow_plus.png' %}"></h3>
+        <p class="text">It saves electricity which is consumed when motor keeps running even after the tank if full. Roofs get spoiled due to water overflow if iron content is high in the water. Our system doesn't let water overflow thus it is good for roofs and your house.</p>
+      </div>
+
+      <div class="question-answer">
+        <h3 class="text">What kind of buildings/houses is Automatic Dhara compatible with?<img class="fa fa-plus" src="{% static 'base/images/Arrow_minus.png' %}"><img class="fa fa-times" src="{% static 'base/images/Arrow_plus.png' %}"></h3>
+        <p class="text"> It is compatible with most systems consisting water source (well/reservoir/boring) and water tank(s).</p>
+      </div>
+
+      <div class="question-answer">
+        <h3 class="text">What kind of places Automatic Dhara isn't compatible with?<img class="fa fa-plus" src="{% static 'base/images/Arrow_minus.png' %}"><img class="fa fa-times" src="{% static 'base/images/Arrow_plus.png' %}"></h3>
+        <p class="text">Places (borings and wells) where the water source keeps drying. In other words, it isn't built for places with no water source. </p>
+      </div>
+
+      <div class="question-answer">
+        <h3 class="text">Is Automatic Dhara reliable?<img class="fa fa-plus" src="{% static 'base/images/Arrow_minus.png' %}"><img class="fa fa-times" src="{% static 'base/images/Arrow_plus.png' %}"></h3>
+        <p class="text"> This product has been rigorously tested for quality. We provide one year warranty because of the high quality of the product. </p>
+      </div>
+
+      <div class="question-answer">
+        <h3 class="text">Where can it be used?<img class="fa fa-plus" src="{% static 'base/images/Arrow_minus.png' %}"><img class="fa fa-times" src="{% static 'base/images/Arrow_plus.png' %}"></h3>
+        <p class="text"> It is useful for houses, offices, poultry, hotels, factory.</p>
+      </div>
+
+    </div>
+    <!-- end of faq -->
+
+
+    <!-- common section for every page  -->
+    <!-- start of contact-us section  -->
+    <div class="container-fluid contact-us">
+      <div class="container">
+        <h2 style="margin:40px 0px 10px 0;">Send us a message</h2>
+        <p class="subtitle">We love hearing from you</p>
+
+{#        <div class="col-md-4">#}
+{#          <img src="{%  static "dhara/images/dhara new.png" %}" class="img img-responsive email-image" style="margin: 0 auto;max-width:280px;padding-right:20px">#}
+{#        </div>#}
+{##}
+{#        <div class="col-md-8">#}
+{#            {% include 'base/emailform.html' %}#}
+{#      </div>#}
+
+            {% include 'base/emailform.html' %}
+
+    </div>
+    </div>
+    <!-- end of contact us section -->
+    <script src="{% static 'base/js/contact_us.js' %}"></script>
+
+{% endblock %}

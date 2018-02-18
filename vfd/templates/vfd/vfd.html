@@ -1,0 +1,182 @@
+{% extends 'base/base.html' %}
+{% load staticfiles %}
+
+
+    {% block title %}
+        <title>VFD - Paaila Technology</title>
+        <meta name="description" content="Paaila Technology is the first company in Nepal to manufacture Variable Frequency Drive. It is specifically suited for Nepali industries.">
+    {% endblock %}
+
+
+{% block content %}
+<!-- Hero image -->
+
+    <link href="{% static 'vfd/css/table.css' %}" rel="stylesheet" type="text/css">
+
+    <div class="container-fluid hero-image" style="background-image:url({% static "vfd/images/Ad and covers-02.png" %});background-image:no-repeat">
+</div>
+
+
+
+
+<!-- start of technical specifications-->
+<div id="specs" class="container" style="padding:8vh 0">
+  <h1 style="margin:10px 0px 20px 0;text-align:center">Technical Specifications</h1>
+
+      <table id="customers">
+        <tr>
+          <th>Parameters</th>
+          <th>Values</th>
+        </tr>
+        <tr>
+          <td>Input Voltage</td>
+          <td>380 – 480V 3ph or 230V single phase</td>
+        </tr>
+        <tr>
+          <td>Input Frequency</td>
+          <td>50Hz or 60Hz </td>
+        </tr>
+        <tr>
+          <td>Output Voltage</td>
+          <td>0 - Rated Line Voltage</td>
+        </tr>
+        <tr>
+          <td>Output Frequency</td>
+          <td>0.5Hz - 200Hz</td>
+        </tr>
+        <tr>
+          <td>Switching Frequency</td>
+          <td>3kHz - 12kHz</td>
+        </tr>
+        <tr>
+          <td>Rated Power</td>
+          <td>0.5Hp - 15Hp</td>
+        </tr>
+        <tr>
+          <td>Control Method</td>
+          <td>Linear V/f</td>
+        </tr>
+        <tr>
+          <td>Display</td>
+          <td>Seven Segment / Alphanumeric LCD</td>
+        </tr>
+        <tr>
+          <td>Digital Inputs</td>
+          <td>5V DC opticallay isolated</td>
+        </tr>
+        <tr>
+          <td>Analog Inputs</td>
+          <td>0 - 5V</td>
+        </tr>
+      </table>
+    </div>
+<!-- end of technical specifications -->
+
+    <!--General Specfications-->
+<div id="features" class="container-fluid" style="background-color:#EFEFEF;padding-bottom:3vh">
+  <div class="container" style="margin:25px auto;display: table">
+    <h1 style="margin:1.2vh 0px 1vh 0;text-align:center;">Features</h1>
+
+    <div style="display:table;width: 100%;margin:25px auto;">
+
+      <!--  products.css-->
+      <div class="col-md-3 col-sm-4 col-xs-6 specs" style="display: table-cell">
+        <img src="{% static "vfd/images/customizable.png" %}" class="img img-responsive" alt="power rating" style="">
+        <h4>Customizable for different applications</h4>
+      </div>
+
+      <div class="col-md-3 col-sm-4 col-xs-6 specs" style="display: table-cell">
+        <img src="{% static "vfd/images/customizable.png" %}" class="img img-responsive" alt="power rating" style="">
+        <h4>Easy to intall & use</h4>
+      </div>
+
+      <div class="col-md-3 col-sm-4 col-xs-6 specs" style="display: table-cell">
+        <img src="{% static "vfd/images/Icons_Robustness.png" %}" class="img img-responsive" alt="power rating" style="">
+        <h4>Industrial Robustness</h4>
+      </div>
+
+      <div class="col-md-3 col-sm-4 col-xs-6 specs" style="display: table-cell">
+        <img src="{% static "vfd/images/Icons_Protection from failure.png" %}" class="img img-responsive" alt="power rating" style="">
+        <h4>Protection against possible drive failures</h4>
+      </div>
+
+      <div class="col-md-3 col-sm-4 col-xs-6 specs" style="display: table-cell">
+        <img src="{% static "vfd/images/Icons_Reliable.png" %}" class="img img-responsive" alt="power rating" style="">
+        <h4>Heavy duty and super reliable operation</h4>
+      </div>
+
+      <div class="col-md-3 col-sm-4 col-xs-6 specs" style="display: table-cell">
+        <img src="{% static "vfd/images/Icons_Customer Service.png" %}" class="img img-responsive" alt="power rating" style="">
+        <h4>Quality customer support</h4>
+      </div>
+
+      <div class="col-md-3 col-sm-4 col-xs-6 specs" style="display: table-cell">
+        <img src="{% static "vfd/images/Icons_Compatible.png" %}" class="img img-responsive" alt="power rating" style="">
+        <h4>Compatible with single phase supply</h4>
+      </div>
+
+      <div class="col-md-3 col-sm-4 col-xs-6 specs" style="display: table-cell">
+        <img src="{% static "vfd/images/Icons_Flag.png" %}" class="img img-responsive" alt="power rating" style="">
+        <h4>Made for Nepali Industries</h4>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!--  end of specs-->
+
+<!--General Feature-->
+<div id="models" class="container" style="padding:8vh 0;border-bottom:1px solid #DADADA">
+
+    <style>
+        #models h3{
+            padding-left: 20px;
+        }
+    </style>
+  <p class="subtitle">VFD is used at more places than you think</p>
+  <h1 class="title" >Usage of VFD</h1>
+
+  <div class="" style="margin-top:10px">
+    <div class="col-md-4 col-sm-6 feature">
+{#      <img src="{% static "vfd/images/Thumbnail Images vfd.png" %}" class="img img-responsive">#}
+      <h3>VFD for Brick Factory</h3>
+      <p class="text">Low priced VFD with adequate features best suited for Nepali automatic brick producing machines.</p>
+    </div>
+
+    <div class="col-md-4 col-sm-6 feature">
+{#      <img src="{% static "vfd/images/Thumbnail Images vfd.png" %}" class="img img-responsive">#}
+        <h3>VFD for Allo</h3>
+        <p class="text">Tailored for thread producing machine.</p>
+    </div>
+
+    <div class="col-md-4 col-sm-6 feature">
+{#      <img src="{% static "vfd/images/Thumbnail Images vfd.png" %}" class="img img-responsive">#}
+        <h3>VFD for Tempo</h3>
+        <p class="text">It is used to change the speed of DC motors used in tempos to drive them.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- start of contact-us section  -->
+    <div class="container-fluid contact-us" style="padding:40px 0;text-align: center">
+  <div class="container">
+    <h2>Send us a message</h2>
+    <p class="subtitle">We love hearing from you</p>
+
+{#    <div class="col-md-4">#}
+{#      <img src="{% static "vfd/images/Thumbnail Images vfd.png" %}" class="img img-responsive email-image" style="margin: 0 auto;max-width:280px;padding-right:20px">#}
+{#    </div>#}
+{##}
+{#        <div class="col-md-8">#}
+{#            {% include 'base/emailform.html' %}#}
+{#      </div>#}
+            {% include 'base/emailform.html' %}
+
+  </div>
+</div>
+<!-- end of contact us section -->
+
+    <script src="{% static 'base/js/contact_us.js' %}"></script>
+
+{% endblock %}

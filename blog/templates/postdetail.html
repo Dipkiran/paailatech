@@ -1,0 +1,81 @@
+{% extends "base/base.html" %}
+{% load staticfiles %}
+{% block head_title %}
+    {{ instance.title }} | {{ block.super }}
+
+{% endblock head_title %}
+
+{% block title %}
+    <title>{{ title.title }} - Paaila Technology Blog on Robotics, AI & Startup </title>
+    <meta name="description" content="{{ instance.content| linebreaks | truncatechars:320 }}">
+
+    {#Limit to five keywords#}
+    <meta name="keywords" content="{{ instance.keywords }}">
+{% endblock %}
+
+{% block content %}
+    <link href="{% static 'blog/css/blog.css' %}" rel="stylesheet" type="text/css">
+
+    <style>
+        .detail-content p {
+            font-family: 'Cardo', serif;
+            line-height: 3.025rem;
+            font-size: 2.0025rem;
+            padding: 8px 0;
+        }
+    </style>
+
+    {# Entire Post#}
+    <div class="detail-image" style="margin-top: 50px">
+        {% if instance.image %}
+            <img style="margin: 0 auto; padding: 0 auto" src='{{ instance.image.url }}' class="img-responsive"/>
+        {% endif %}
+    </div>
+
+    <div style="background-color: #fff; " class="container-fluid">
+        <div class="col-md-5 col-md-offset-3 col-sm-10 col-sm-offset-1">
+            <div class="details">
+
+                {# Title and published date and author#}
+                <div class="detail-text">
+                    <h1 style="font-family: 'Cardo', serif; text-align: center; padding: 20px 0 0px 0">
+                        <strong>{{ title | title }}</strong>
+                    </h1>
+                    <p>
+                        <small>
+                            <small><br>
+                                {{ instance.published_Date.date }}
+                                {#{% if instance.user.get_full_name %}#}
+                                {# By: <I> {{ instance.user.get_full_name }}</I>#}
+                                {% if instance.user %}
+                                    &nbsp; &nbsp By: <I> {{ instance.user }}</I>
+                                {% endif %}
+                            </small>
+                        </small>
+                    </p>
+                </div>
+
+                {# Text content of post #}
+                <div class="detail-content"
+                     style="font-family: 'Cardo', serif; font-size:20px; padding: 20px 0 40px 0">
+                    {% autoescape off %}
+                        {{ instance.content | linebreaks}}
+                    {% endautoescape %}
+                </div>
+
+                {# If any user is logged in #}
+                {% if request.user.is_superuser or  request.user.is_staff %}
+                    <form name="update" action="{{ instance.get_url }}">
+                        {% csrf_token %}
+                        <button>Update</button>
+                    </form>
+                    <form name="delete" action="{{ instance.get_delete_url }}">
+                        {% csrf_token %}
+                        <button>Delete</button>
+                    </form>
+                {% endif %}
+            </div>
+
+        </div>
+    </div>
+{% endblock %}

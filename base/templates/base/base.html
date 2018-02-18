@@ -1,0 +1,273 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Paaila Technology-We Drive Innovations Forward.">
+    <meta name="google-site-verification" content="5YyfKR90XezwMARVwzTYQl-s34t4P1jn5Q0nerSlQ0g"/>
+    <meta name="msvalidate.01" content="0BE2C7631A2E450F036C7259FD8945E7"/>
+
+    {% block title %}
+        <title>Home - Paaila Technology</title>
+        <meta name="keywords"
+              content="Paaila, Paaila Technology, Humanoid, Humanoid Robot, Robot for business, Technology, Nepal, Robot and Industrial Automation, Automation, Robot, Made in Nepal">
+        <meta name="description" content="Paaila Technology introduced first commercial humanoid service robot.
+        It has a great vertical integration of software and hardware expertise which include include image processing
+        and computer vision, embedded system design, robotics and automation. Location: Nepal.">
+    {% endblock %}
+
+    <!-- Import online bootstrap -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <meta name="google-site-verification" content="LuekQPJ29A0rl2t_iYyxMjAjDM_8Iw8ZOWDKlZfZRJw"/>
+    <meta name="google-site-verification" content="LuekQPJ29A0rl2t_iYyxMjAjDM_8Iw8ZOWDKlZfZRJw"/>
+
+    <link rel="icon"
+          type="image/png"
+          href="{% static "base/images/Paaila Favicon_Paaila Favicon.png" %}">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis:600|EB+Garamond|Quicksand|Rubik" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:700|Cardo|Lustria|Source+Serif+Pro" rel="stylesheet">
+    <link href=
+                  "https://fonts.googleapis.com/css?family=Cardo|Crimson+Text|Libre+Baskerville|Lora|Noto+Serif|PT+Serif|Quattrocento|Source+Serif+Pro"
+          rel="stylesheet">
+
+    <!-- General Styling -->
+    <link href="{% static 'base/css/header.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'base/css/style.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'base/css/footer.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'base/css/client.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'base/css/faq.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'base/css/form.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'base/css/slider.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'base/css/video.css' %}" rel="stylesheet" type="text/css">
+
+    <!--  Import JS -->
+    <script src="{% static 'base/js/header.js' %}"></script>
+    <script src="{% static 'base/js/footer.js' %}"></script>
+    <script src="{% static 'base/js/testimonial.js' %}"></script>
+    <script src="{% static 'base/js/index.js' %}"></script>
+    <script src="{% static 'base/js/faq.js' %}"></script>
+    <script src="{% static '/js/ckeditor/ckeditor.js' %}"></script>
+    <script src="{% static 'base/js/Bootstrap/jquery.min.js' %}"></script>
+    <script src="{% static 'base/js/Bootstrap/bootstrap.min.js' %}"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-96719561-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-96719561-2');
+    </script>
+
+</head>
+
+<body>
+
+{#{% load google_analytics_tags %}#}
+{#<div style="display:none">#}
+{#    <img src="{% google_analytics %}" width="0" height="0" />#}
+{#</div>#}
+
+<!--  start of navbar-->
+<div class="navbar-header navbar-width navbar-fixed-top small" style="">
+    <div class="container">
+        <button type="button" id="navbutton" class="navbar-toggle" data-toggle="collapse" data-target="">
+            <span style="background:black" class="icon-bar"></span>
+            <span style="background:black" class="icon-bar"></span>
+            <span style="background:black" class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" href="/"><img class="img-responsive logo " src="{% static 'base/images/logo.png' %}"
+                                              style="display:block"></a>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+
+                <li class=""><a class="links" href="/">Home</a></li>
+                <li class=""><a class="links" href="/robotics">Robotics</a></li>
+                <li class=""><a class="links" href="/ai">AI</a></li>
+                <!--          <li class=""><a class="links" href="/automaticdhara">Automatic Dhara</a></li>-->
+                <li class=""><a class="links" href="/careers">Careers</a></li>
+                <li class=""><a class="links" href="/blog">Blog</a></li>
+                <li class=""><a class="links" href="/about-us">About Us</a></li>
+                <li class=""><a class="links" href="/contact-us">Contact Us</a></li>
+
+            </ul>
+        </div>
+    </div><!--End of container-->
+</div>
+<!--  end of navbar-->
+{% block loginbutton %}
+{% endblock %}
+
+{% block banner %}
+{% endblock %}
+{% if context %}
+    {{ context.0 }}
+{% endif %}
+
+{% block bodycontent %}
+{% endblock %}
+
+{% block content %}
+{% endblock %}
+
+<!--  Start of footer-->
+<div class="container-fluid" style="background:#FAFAFA;padding-top:4vh">
+    <div class="container" style="margin-top:25px;margin-bottom:20px">
+
+        <div class="footer-col col-lg-2 col-md-2 col-sm-6">
+            <li><a style=" color:#111" class=""><b>CONNECT WITH US</b></a>&nbsp<i class="fa fa-angle-down"
+                                                                                  aria-hidden="true"></i><i
+                    class="fa fa-angle-up" aria-hidden="true"></i>
+            </li>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/paailatechnology/" class="text-muted"><i
+                            class="fa fa-facebook-square fa-2x" aria-hidden="true">&nbsp</i></a>
+                    <a href="https://www.twitter.com/paailatech/" class="text-muted"><i
+                            class="fa fa-twitter-square fa-2x" aria-hidden="true">&nbsp</i></a>
+                    <a href="https://www.youtube.com/channel/UC1JSYs_R9Bk8C78zUymRFvg" class="text-muted"><i
+                            class="fa fa-youtube-square fa-2x" aria-hidden="true">&nbsp</i></a>
+                    <a href="https://www.linkedin.com/paailatechnology/" class="text-muted"><i
+                            class="fa fa-linkedin-square fa-2x" aria-hidden="true">&nbsp</i></a>
+                </li>
+
+                <li><a class="text-muted" style="text-decoration:none">Address :</a></li>
+                <li><a class="text-muted" style="text-decoration:none">Jhamsikhel</a></li>
+                <li><a class="text-muted" style="text-decoration:none">Lalitpur, Kathmandu</a></li>
+                <li><a class="text-muted" style="text-decoration:none">Email : info@<strong>paaila</strong>technology.com</a>
+                </li>
+                <li><a class="text-muted" style="text-decoration:none">Phone : +977 015545577</a></li>
+
+            </ul>
+        </div>
+
+
+        <div class="footer-col col-lg-2 col-md-2 col-sm-6">
+            <li>
+                <a href="/robotics" style="color:#111" class=""><b>ROBOTICS</b></a>&nbsp<i class="fa fa-angle-down"
+                                                                                           aria-hidden="true"></i><i
+                    class="fa fa-angle-up" aria-hidden="true"></i>
+            </li>
+            <ul>
+                <li><a href="/robotics/waiter" class="text-muted">Waiter Robot</a></li>
+                <li><a href="/robotics/room-service" class="text-muted">Room Service Robot</a></li>
+                <li><a href="/robotics/pari" class="text-muted">Pari</a></li>
+                <li><a href="/robotics#faq" class="text-muted">FAQ on Pari</a></li>
+                <li><a href="/robotics#images" class="text-muted">Pari in Images</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col col-lg-2 col-md-2 col-sm-6">
+            <li>
+                <a href="/ai" style="color:#111" class=""><b>AI</b></a>&nbsp<i class="fa fa-angle-down"
+                                                                               aria-hidden="true"></i><i
+                    class="fa fa-angle-up" aria-hidden="true"></i>
+            </li>
+            <ul>
+                <li><a href="/ai#recommendation-system" class="text-muted">Recommendation Systems</a></li>
+                <li><a href="/ai#nepali-speech-recognition" class="text-muted">Nepali Speech Recognition</a></li>
+                <li><a href="/ai#nepali-text-to-speech" class="text-muted">Nepali Text to Speech</a></li>
+                <li><a href="/ai#query-answering-system" class="text-muted">Question Answering System</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col col-lg-2 col-md-2 col-sm-6">
+            <li>
+                <a href="/vfd" style="color:#111" class=""><b>AUTOMATION</b></a>&nbsp<i class="fa fa-angle-down"
+                                                                                        aria-hidden="true"></i><i
+                    class="fa fa-angle-up" aria-hidden="true"></i>
+            </li>
+            <ul>
+                <li><a href="/vfd" class="text-muted">Variable Frequency Drive</a></li>
+                <li><a href="/automaticdhara" class="text-muted">Automatic Dhara</a></li>
+            </ul>
+        </div>
+
+        {##}
+        {#    <div class="footer-col col-lg-2 col-md-2 col-sm-6">#}
+        {#      <li>#}
+        {#        <a href="/vfd" style="color:#111" class=""><b>VARIABLE FREQUENCY DRIVE</b></a>&nbsp<i class="fa fa-angle-down" aria-hidden="true"></i><i class="fa fa-angle-up" aria-hidden="true"></i>#}
+        {#      </li>#}
+        {#        <ul>#}
+        {#          <li><a href="/vfd#specs" class="text-muted">Specifications</a></li>#}
+        {#          <li><a href="/vfd#features" class="text-muted">Features</a></li>#}
+        {#          <li><a href="/vfd#models" class="text-muted">Models</a></li>#}
+        {#        </ul>#}
+        {#    </div>#}
+        {##}
+        {#    <div class="footer-col col-lg-2 col-md-2 col-sm-6">#}
+        {#      <li>#}
+        {#        <a href="/automaticdhara" style="color:#111" class=""><b>AUTOMATIC DHARA</b></a>&nbsp<i class="fa fa-angle-down" aria-hidden="true"></i><i class="fa fa-angle-up" aria-hidden="true"></i>#}
+        {#      </li>#}
+        {#        <ul>#}
+        {#          <li><a href="/automaticdhara#models" class="text-muted">Models</a></li>#}
+        {#          <li><a href="/automaticdhara#features" class="text-muted">Features</a></li>#}
+        {#          <li><a href="/automaticdhara#faq" class="text-muted">FAQ</a></li>#}
+        {#      </ul>#}
+        {#    </div>#}
+
+        <div class="footer-col col-lg-2 col-md-2 col-sm-6">
+            <li>
+                <a style="color:#111" class=""><b>WORK & LEARN</b></a>&nbsp<i class="fa fa-angle-down"
+                                                                              aria-hidden="true"></i><i
+                    class="fa fa-angle-up" aria-hidden="true"></i>
+            </li>
+            <ul>
+                <li><a href="/blog" class="text-muted">Blog</a></li>
+                <li><a href="/careers" class="text-muted">Careers</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col col-lg-2 col-md-2 col-sm-6">
+            <li>
+                <a href="/about-us" style="color:#111" class=""><b>ABOUT US</b></a>&nbsp<i class="fa fa-angle-down"
+                                                                                           aria-hidden="true"></i><i
+                    class="fa fa-angle-up" aria-hidden="true"></i>
+            </li>
+            <ul>
+                <li><a href="/about-us#vision" class="text-muted">Vision</a></li>
+                <li><a href="/about-us#the-team" class="text-muted">The Team</a></li>
+                <li><a href="/media-and-press" class="text-muted">Media Coverage</a></li>
+                <li><a href="/#awards" class="text-muted">Awards</a></li>
+
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="container" style="text-align:center">
+        <hr>
+        <div class="copyright-message">
+            <div class="col-sm-6">
+                <p><a href="#">Sitemap</a> &nbsp|&nbsp
+                    <a href="#">Disclaimer</a> &nbsp|&nbsp
+                    <a href="#">Privacy Policy</a>
+                </p>
+            </div>
+            <div class="col-sm-6">
+                <p style="">All rights reserved with Paaila Technology 2017</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of footer
+
+</body>
+</html>
